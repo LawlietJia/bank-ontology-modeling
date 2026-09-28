@@ -1,0 +1,4 @@
+interface:
+  display_name: "银行业务本体建模"
+  short_description: "从银行文档、表结构与业务问题构建可追溯、可维护的跨领域业务本体"
+  default_prompt: "使用 $bank-ontology-modeling 分析现有资料与真实业务问题，提出建模路线，形成带来源、问题清单与验收案例的业务本体交付。"

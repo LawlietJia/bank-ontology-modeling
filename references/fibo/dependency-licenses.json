@@ -1,0 +1,638 @@
+[
+  {
+    "file": "dependencies/Commons/AnnotationVocabulary.rdf",
+    "declarations": [
+      "Copyright (c) 2022-2025 Adaptive Analytics, Inc.\nCopyright (c) 2022-2025 EDM Council, Inc.\nCopyright (c) 2022-2025 Federated Knowledge LLC\nCopyright (c) 2022-2025 Object Management Group, Inc.\nCopyright (c) 2024-2025 Ontogenesis Solutions, LLC\nCopyright (c) 2022-2025 Thematix Partners LLC\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\t\t\nSee https://opensource.org/licenses/MIT."
+    ]
+  },
+  {
+    "file": "dependencies/Commons/BusinessAuthorizations.rdf",
+    "declarations": [
+      "Copyright (c) 2021-2025 EDM Council, Inc.\n\t\tCopyright (c) 2021-2025 Object Management Group, Inc.\n\t\tCopyright (c) 2021-2025 Thematix Partners LLC\n\t\tCopyright (c) 2022-2025 Adaptive Analytics, Inc.\n\t\tCopyright (c) 2022-2025 Federated Knowledge LLC\n\t\tCopyright (c) 2024-2025 Ontogenesis Solutions, LLC\n\t\t\n\t\tPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\t\t\n\t\tSee https://opensource.org/licenses/MIT."
+    ]
+  },
+  {
+    "file": "dependencies/Commons/Classifiers.rdf",
+    "declarations": [
+      "Copyright (c) 2014-2024 EDM Council, Inc.\nCopyright (c) 2014-2024 Thematix Partners LLC\nCopyright (c) 2015-2024 Object Management Group, Inc.\nCopyright (c) 2024 Adaptive, Inc.\nCopyright (c) 2024 Federated Knowledge LLC \n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\t\t\nSee https://opensource.org/licenses/MIT."
+    ]
+  },
+  {
+    "file": "dependencies/Commons/CodesAndCodeSets.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/Commons/Collections.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/Commons/ContextualDesignators.rdf",
+    "declarations": [
+      "Copyright (c) 2020-2025 Thematix Partners LLC\n\t\tCopyright (c) 2020-2025 Working Ontologist LLC\n\t\tCopyright (c) 2022-2025 Object Management Group, Inc.\n\t\tCopyright (c) 2022-2025 agnos.ai U.K. Ltd\n\t\tCopyright (c) 2023-2025 Federated Knowledge, LLC\n\t\t\n\t\tPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\t\t\n\t\tSee https://opensource.org/licenses/MIT."
+    ]
+  },
+  {
+    "file": "dependencies/Commons/ContextualIdentifiers.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/Commons/DatesAndTimes.rdf",
+    "declarations": [
+      "Copyright (c) 2014-2025 EDM Council, Inc.\n\t\tCopyright (c) 2014-2025 Object Management Group, Inc.\n\t\tCopyright (c) 2014-2025 Thematix Partners LLC\n\t\tCopyright (c) 2021-2025 agnos.ai U.K. Ltd\n\t\tCopyright (c) 2023-2025 Federated Knowledge LLC\n\t\t\n\t\tPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\t\t\n\t\tSee https://opensource.org/licenses/MIT."
+    ]
+  },
+  {
+    "file": "dependencies/Commons/Designators.rdf",
+    "declarations": [
+      "Copyright (c) 2014-2025 Thematix Partners LLC\n\t\tCopyright (c) 2021-2025 agnos.ai U.K. Ltd\n\t\tCopyright (c) 2021-2025 Federated Knowledge, LLC\n\t\tCopyright (c) 2021-2025 Mayo Clinic\n\t\tCopyright (c) 2022-2025 Object Management Group, Inc.\n\t\tCopyright (c) 2021-2025 Working Ontologist LLC\n\t\t\n\t\tPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\t\t\n\t\tSee https://opensource.org/licenses/MIT."
+    ]
+  },
+  {
+    "file": "dependencies/Commons/Documents.rdf",
+    "declarations": [
+      "Copyright (c) 2014-2025 EDM Council, Inc.\n\t\tCopyright (c) 2022-2025 Federated Knowledge LLC\n\t\tCopyright (c) 2022-2025 Mayo Clinic\n\t\tCopyright (c) 2022-2025 Thematix Partners LLC\n\t\tCopyright (c) 2023-2025 Object Management Group, Inc.\n\t\t\n\t\tPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\t\t\n\t\tSee https://opensource.org/licenses/MIT."
+    ]
+  },
+  {
+    "file": "dependencies/Commons/Identifiers.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/Commons/Languages.rdf",
+    "declarations": [
+      "Copyright (c) 2015-2025 Adaptive Analytics, Inc.\n\t\tCopyright (c) 2015-2025 Object Management Group, Inc.\n\t\tCopyright (c) 2015-2025 Thematix Partners LLC\n\t\tCopyright (c) 2015-2017 Unisys\n\t\tCopyright (c) 2019-2025 agnos.ai UK Ltd.\n\t\tCopyright (c) 2022-2025 Federated Knowledge LLC\n\t\t\n\t\tPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\t\t\n\t\tSee https://opensource.org/licenses/MIT."
+    ]
+  },
+  {
+    "file": "dependencies/Commons/Locations.rdf",
+    "declarations": [
+      "Copyright (c) 2015-2025 Adaptive Analytics, Inc.\n\t\tCopyright (c) 2015-2025 EDM Council, Inc.\n\t\tCopyright (c) 2015-2025 Object Management Group, Inc.\n\t\tCopyright (c) 2015-2025 Thematix Partners LLC\n\t\tCopyright (c) 2015-2017 Unisys\n\t\tCopyright (c) 2019-2025 agnos.ai UK Ltd.\n\t\tCopyright (c) 2021-2025 Federated Knowledge, LLC\n\t\t\n\t\tPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\t\t\n\t\tSee https://opensource.org/licenses/MIT."
+    ]
+  },
+  {
+    "file": "dependencies/Commons/Organizations.rdf",
+    "declarations": [
+      "Copyright (c) 2013-2025 EDM Council, Inc.\n\t\tCopyright (c) 2013-2025 Object Management Group, Inc.\n\t\t\n\t\tPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\t\t\n\t\tSee https://opensource.org/licenses/MIT."
+    ]
+  },
+  {
+    "file": "dependencies/Commons/PartiesAndSituations.rdf",
+    "declarations": [
+      "Copyright (c) 2020-2025 EDM Council, Inc.\n\t\tCopyright (c) 2020-2025 Thematix Partners LLC\n\t\tCopyright (c) 2020-2025 Working Ontologist LLC\n\t\tCopyright (c) 2022-2025 Object Management Group, Inc.\n\t\tCopyright (c) 2022-2025 Pistoia Alliance, Inc.\n\t\t\n\t\tPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\t\t\n\t\tSee https://opensource.org/licenses/MIT."
+    ]
+  },
+  {
+    "file": "dependencies/Commons/QuantitiesAndUnits.rdf",
+    "declarations": [
+      "Copyright (c) 2011-2024 Thematix Partners LLC\nCopyright (c) 2015-2024 EDM Council, Inc.\nCopyright (c) 2015-2024 Object Management Group, Inc.\nCopyright (c) 2023-2024 DEKonsult\nCopyright (c) 2023-2024 Mayo Clinic\nCopyright (c) 2023-2024 University of North Florida\nCopyright (c) 2024 Airbus Group\nCopyright (c) 2024 Ontogenesis Solutions, LLC\n\t\t\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\t\t\nSee https://opensource.org/licenses/MIT."
+    ]
+  },
+  {
+    "file": "dependencies/Commons/RegistrationAuthorities.rdf",
+    "declarations": [
+      "Copyright (c) 2015-2025 EDM Council, Inc.\n\t\tCopyright (c) 2015-2025 Object Management Group, Inc.\n\t\t\n\t\tPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\t\t\n\t\tSee https://opensource.org/licenses/MIT."
+    ]
+  },
+  {
+    "file": "dependencies/Commons/RegulatoryAgencies.rdf",
+    "declarations": [
+      "Copyright (c) 2015-2025 EDM Council, Inc.\n\t\tCopyright (c) 2015-2025 Object Management Group, Inc.\n\t\t\n\t\tPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\t\t\n\t\tSee https://opensource.org/licenses/MIT."
+    ]
+  },
+  {
+    "file": "dependencies/Commons/RolesAndCompositions.rdf",
+    "declarations": [
+      "https://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/Commons/SitesAndFacilities.rdf",
+    "declarations": [
+      "Copyright (c) 2011-2025 Thematix Partners LLC\n\t\tCopyright (c) 2013-2025 EDM Council, Inc.\n\t\tCopyright (c) 2013-2025 Object Management Group, Inc.\n\t\t\n\t\tPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\t\t\n\t\tSee https://opensource.org/licenses/MIT."
+    ]
+  },
+  {
+    "file": "dependencies/Commons/StructuredCollections.rdf",
+    "declarations": [
+      "Copyright (c) 2019-2024 Thematix Partners LLC\n\t\tCopyright (c) 2021-2024 EDM Council, Inc.\n\t\tCopyright (c) 2024 Object Management Group, Inc.\n\t\tPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\t\t\n\t\tSee https://opensource.org/licenses/MIT."
+    ]
+  },
+  {
+    "file": "dependencies/Commons/TextDatatype.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/CountryRepresentation.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/ISO3166-1-CountryCodes.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/ISO3166-2-SubdivisionCodes.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AD.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AS.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BA.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BQ.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BZ.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GB.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GD.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GG.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GL.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GP.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KY.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MF.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MP.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PA.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PL.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PM.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RS.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SI.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SJ.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TC.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VG.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VI.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Countries/UN-M49-RegionCodes.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  },
+  {
+    "file": "dependencies/LCC/Languages/LanguageRepresentation.rdf",
+    "declarations": [
+      "http://opensource.org/licenses/MIT"
+    ]
+  }
+]

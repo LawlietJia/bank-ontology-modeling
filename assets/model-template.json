@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.1",
+  "project": {
+    "id": "BANK-MODEL",
+    "title": "银行业务本体评审草案",
+    "version": "0.1",
+    "status": "draft",
+    "purpose": "填写经诊断确认的业务问题",
+    "domains": [
+      "待明确"
+    ],
+    "application": "待诊断",
+    "owner": "待指定"
+  },
+  "sources": [],
+  "records": [],
+  "questions": [],
+  "tests": [],
+  "decisions": []
+}

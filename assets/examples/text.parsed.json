@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "path": "synthetic-bank.txt",
+    "sha256": "d4a8dd21dfd77ec20a62db80e2ec4affb15b8c354f6d07a131911202d2aff30e",
+    "format": ".txt"
+  },
+  "blocks": [
+    {
+      "anchor": "L1",
+      "kind": "text",
+      "text": "合成银行业务材料，用于验证方法，不是任何银行的真实制度或监管规定。",
+      "disposition": "parsed"
+    },
+    {
+      "anchor": "L2",
+      "kind": "text",
+      "text": "主体按标识域和主体编号识别；同一主体可在账户中为持有人，在交易中为交易对手。",
+      "disposition": "parsed"
+    },
+    {
+      "anchor": "L3",
+      "kind": "text",
+      "text": "产品描述可提供的服务和条件；协议记录具体参与方达成的约定；账户记录指定业务范围的资金或权益信息，三者不等价。",
+      "disposition": "parsed"
+    },
+    {
+      "anchor": "L4",
+      "kind": "text",
+      "text": "一个主体可持有多个账户，一个账户可联名持有；持有关系记录生效和失效日期。",
+      "disposition": "parsed"
+    },
+    {
+      "anchor": "L5",
+      "kind": "text",
+      "text": "ACCT.party_id仅记录一项源客户关联，不能证明完整持有人名单；余额类型尚未定义。",
+      "disposition": "parsed"
+    },
+    {
+      "anchor": "L6",
+      "kind": "text",
+      "text": "支付指令表达支付请求；支付交易表示处理中的业务交易；记账分录表示会计记录，三者应独立标识并按证据关联。",
+      "disposition": "parsed"
+    },
+    {
+      "anchor": "L7",
+      "kind": "text",
+      "text": "支付指令的收款账户可能是外行账户引用，未匹配本行账户不证明异常；缺少支付币种时不可跨币种汇总金额。",
+      "disposition": "parsed"
+    },
+    {
+      "anchor": "L8",
+      "kind": "text",
+      "text": "支付异常工单由运营人员调查并提出处置；实际重试只有获得对应权限和复核后才能执行，提交重试请求不代表付款成功。",
+      "disposition": "parsed"
+    },
+    {
+      "anchor": "L9",
+      "kind": "text",
+      "text": "工单状态包括待调查、待复核、已关闭；调查完成可提交复核，材料不足维持待调查并记录原因。",
+      "disposition": "parsed"
+    },
+    {
+      "anchor": "L10",
+      "kind": "text",
+      "text": "重试按原支付业务请求标识防止重复执行；收到超时需查询实际执行结果，不能直接再次付款。",
+      "disposition": "parsed"
+    },
+    {
+      "anchor": "L11",
+      "kind": "text",
+      "text": "金融工具描述合同性权利义务；交易记录一次达成的交易约定；头寸是在指定账户和时点按明确口径计量的持有或风险状况。",
+      "disposition": "parsed"
+    },
+    {
+      "anchor": "L12",
+      "kind": "text",
+      "text": "交易日期、约定结算日期与实际结算事件日期分别保存，日期不一致不能直接认定违约。",
+      "disposition": "parsed"
+    },
+    {
+      "anchor": "L13",
+      "kind": "text",
+      "text": "合规告警是筛查产生的疑点，不等于违规事实；调查结论记录证据、适用规则版本和作出判断的角色。",
+      "disposition": "parsed"
+    },
+    {
+      "anchor": "L14",
+      "kind": "text",
+      "text": "合规调查员可以建议继续调查或关闭告警；只有指定复核员有关闭权限，关闭告警不删除原始事件和证据。",
+      "disposition": "parsed"
+    },
+    {
+      "anchor": "L15",
+      "kind": "text",
+      "text": "金额汇总必须明确币种、时间及业务范围；没有汇率来源时仅按币种分别汇总。",
+      "disposition": "parsed"
+    },
+    {
+      "anchor": "L16",
+      "kind": "text",
+      "text": "本材料没有给出任何授信审批阈值、违规判定阈值或外部监管标准，不得补造。",
+      "disposition": "parsed"
+    }
+  ],
+  "issues": [],
+  "coverage": {
+    "blocks": 16,
+    "needs_review": 0,
+    "issues": 0,
+    "semantic_extraction": "not_performed"
+  }
+}

@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# FIBO 离线参考包不入库（体积与再分发许可），重建见 README 与 references/fibo-use.md
+references/fibo/source/
+references/fibo/dependencies/
+references/fibo/index.sqlite

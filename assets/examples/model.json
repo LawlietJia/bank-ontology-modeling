@@ -1,0 +1,746 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "id": "BANK-DEMO",
+    "title": "跨领域银行业务本体评审草案",
+    "version": "0.1",
+    "status": "draft",
+    "purpose": "验证共享语义、领域规则和受控操作建模方法",
+    "domains": [
+      "共享概念",
+      "零售",
+      "支付",
+      "金融市场",
+      "合规"
+    ],
+    "application": "只读调查、规则决策及操作契约示例",
+    "owner": "示例待业务评审"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "path": "synthetic-bank.txt",
+      "kind": "synthetic",
+      "version": "1",
+      "sha256": "d4a8dd21dfd77ec20a62db80e2ec4affb15b8c354f6d07a131911202d2aff30e",
+      "blocks_path": "text.parsed.json"
+    },
+    {
+      "id": "S2",
+      "path": "synthetic-schema.sql",
+      "kind": "synthetic",
+      "version": "1",
+      "sha256": "0838326971939c5b9ff83a6f774bd017d1ad034c15ac5382f632dd59929f20b5",
+      "blocks_path": "ddl.parsed.json"
+    }
+  ],
+  "records": [
+    {
+      "id": "O-PARTY",
+      "kind": "object",
+      "name": "主体",
+      "definition": "在业务关系中承担角色的参与方，不因不同业务角色而复制主体身份。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L2"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "共享概念",
+        "nature": "合成材料陈述，未获银行批准",
+        "identity": "标识域＋主体编号，跨标识域对应需单独确认"
+      }
+    },
+    {
+      "id": "O-PRODUCT",
+      "kind": "object",
+      "name": "产品",
+      "definition": "可提供的服务及其条件的定义。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L3"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "共享概念",
+        "nature": "合成材料陈述，未获银行批准",
+        "identity": "产品编码及版本适用期间"
+      }
+    },
+    {
+      "id": "O-AGREEMENT",
+      "kind": "object",
+      "name": "协议",
+      "definition": "具体参与方达成的业务约定。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L3"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "共享概念",
+        "nature": "合成材料陈述，未获银行批准",
+        "identity": "协议编号及标识域"
+      }
+    },
+    {
+      "id": "O-ACCOUNT",
+      "kind": "object",
+      "name": "账户",
+      "definition": "指定业务范围资金或权益信息的账户，不等同产品或协议。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L3"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "零售",
+        "nature": "合成材料陈述，未获银行批准",
+        "identity": "开户机构标识域＋账户编号"
+      }
+    },
+    {
+      "id": "O-HOLDING",
+      "kind": "object",
+      "name": "账户持有关系",
+      "definition": "主体在有效期间持有账户的关系事实，支持联名。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L4"
+        }
+      ],
+      "links": [
+        "O-PARTY",
+        "O-ACCOUNT"
+      ],
+      "details": {
+        "domain": "零售",
+        "nature": "合成材料陈述，未获银行批准",
+        "identity": "主体＋账户＋有效期间"
+      }
+    },
+    {
+      "id": "R-HOLDER",
+      "kind": "relation",
+      "name": "持有关系的主体",
+      "definition": "一条持有关系连接一个主体。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L4"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "零售",
+        "nature": "合成材料陈述，未获银行批准",
+        "subject": "O-HOLDING",
+        "object": "O-PARTY",
+        "cardinality": "持有关系1；主体0..*",
+        "time_basis": "持有关系生效至失效"
+      }
+    },
+    {
+      "id": "R-ACCOUNT",
+      "kind": "relation",
+      "name": "持有关系的账户",
+      "definition": "同一账户可对应多条持有关系。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L4"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "零售",
+        "nature": "合成材料陈述，未获银行批准",
+        "subject": "O-HOLDING",
+        "object": "O-ACCOUNT",
+        "cardinality": "持有关系1；账户0..*，最低数待确认",
+        "time_basis": "持有关系有效期间"
+      }
+    },
+    {
+      "id": "P-BALANCE",
+      "kind": "attribute",
+      "name": "源余额值",
+      "definition": "ACCT.balance原始数值，尚不能称为可用余额或账面余额。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L5"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "零售",
+        "nature": "合成材料陈述，未获银行批准",
+        "owner_id": "O-ACCOUNT",
+        "datatype": "精确十进制",
+        "currency": "源currency，码值字典待确认",
+        "time_basis": "源as_of_date含义待确认"
+      }
+    },
+    {
+      "id": "M-HOLDER",
+      "kind": "mapping",
+      "name": "源客户关联覆盖",
+      "definition": "单一客户字段仅能提供部分关联线索。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L5"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "零售",
+        "nature": "合成材料陈述，未获银行批准",
+        "target": "O-HOLDING",
+        "source_table": "ACCT",
+        "source_field": "party_id",
+        "transformation": "语义确认后可映射一项已知关联；不得伪造其余持有人",
+        "coverage": "部分且待确认"
+      }
+    },
+    {
+      "id": "O-INSTRUCTION",
+      "kind": "object",
+      "name": "支付指令",
+      "definition": "一项发起支付的请求。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L6"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "支付",
+        "nature": "合成材料陈述，未获银行批准",
+        "identity": "支付指令编号及所属业务标识域"
+      }
+    },
+    {
+      "id": "O-TRANSACTION",
+      "kind": "object",
+      "name": "支付交易",
+      "definition": "支付业务处理中的交易，不由指令存在推断已完成。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L6"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "支付",
+        "nature": "合成材料陈述，未获银行批准",
+        "identity": "支付交易编号及所属业务标识域"
+      }
+    },
+    {
+      "id": "O-ENTRY",
+      "kind": "object",
+      "name": "记账分录",
+      "definition": "会计记账事实，不由指令状态自动推断。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L6"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "支付",
+        "nature": "合成材料陈述，未获银行批准",
+        "identity": "记账分录编号及所属业务标识域"
+      }
+    },
+    {
+      "id": "O-ACCOUNTREF",
+      "kind": "object",
+      "name": "收款账户引用",
+      "definition": "用于标识收款目标的信息，可指向外行账户；标识机构尚需补充。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L7"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "支付",
+        "nature": "合成材料陈述，未获银行批准",
+        "identity": "账号＋开户机构＋标识类型，缺项时不得跨域自动合并"
+      }
+    },
+    {
+      "id": "R-PAYEE",
+      "kind": "relation",
+      "name": "指令的收款账户引用",
+      "definition": "支付请求指向的账户标识。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L7"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "支付",
+        "nature": "合成材料陈述，未获银行批准",
+        "subject": "O-INSTRUCTION",
+        "object": "O-ACCOUNTREF",
+        "cardinality": "指令0..1，必填性待确认；引用0..*"
+      }
+    },
+    {
+      "id": "O-CASE",
+      "kind": "object",
+      "name": "支付异常工单",
+      "definition": "承载调查、复核与处置过程的工作对象。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L8"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "支付",
+        "nature": "合成材料陈述，未获银行批准",
+        "identity": "工单编号；与支付指令通过明确关联相连"
+      }
+    },
+    {
+      "id": "R-CASE",
+      "kind": "relation",
+      "name": "工单关联指令",
+      "definition": "工单调查所涉及的支付请求。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L8"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "支付",
+        "nature": "合成材料陈述，未获银行批准",
+        "subject": "O-CASE",
+        "object": "O-INSTRUCTION",
+        "cardinality": "工单1..*；指令0..*，此基数为建模提案待确认"
+      }
+    },
+    {
+      "id": "D-RETRY",
+      "kind": "decision",
+      "name": "是否建议重试",
+      "definition": "运营人员基于事实决定是否提交重试建议，建议不是执行授权。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L8"
+        }
+      ],
+      "links": [
+        "O-CASE",
+        "O-INSTRUCTION"
+      ],
+      "details": {
+        "domain": "支付",
+        "nature": "合成材料陈述，未获银行批准",
+        "inputs": "原指令、调查证据、实际执行结果",
+        "outputs": "补充调查或提交重试建议",
+        "actor": "运营调查人员"
+      }
+    },
+    {
+      "id": "S-INVESTIGATE",
+      "kind": "state",
+      "name": "待调查",
+      "definition": "调查材料尚未完成的工单阶段。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L9"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "支付",
+        "nature": "合成材料陈述，未获银行批准",
+        "owner_id": "O-CASE"
+      }
+    },
+    {
+      "id": "S-REVIEW",
+      "kind": "state",
+      "name": "待复核",
+      "definition": "调查结论提交复核后的工单阶段。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L9"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "支付",
+        "nature": "合成材料陈述，未获银行批准",
+        "owner_id": "O-CASE"
+      }
+    },
+    {
+      "id": "A-SUBMIT",
+      "kind": "action",
+      "name": "提交调查复核",
+      "definition": "记录调查结论并将工单送交复核。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L9"
+        }
+      ],
+      "links": [
+        "O-CASE",
+        "D-RETRY"
+      ],
+      "details": {
+        "domain": "支付",
+        "nature": "合成材料陈述，未获银行批准",
+        "actor": "授权运营调查人员",
+        "authorization": "具备该工单调查权限；复核权限另行管理",
+        "preconditions": "调查材料齐全；工单处于待调查",
+        "effects": "记录结论与证据；工单转待复核；不执行付款",
+        "failure": "材料不全保持原状态并记录原因",
+        "success": "提交结果和状态更新均可核对",
+        "idempotency": "按工单及本次调查版本去重",
+        "state_from": "S-INVESTIGATE",
+        "state_to": "S-REVIEW"
+      }
+    },
+    {
+      "id": "RULE-RETRY",
+      "kind": "rule",
+      "name": "超时后先核查结果",
+      "definition": "重试发生超时时先查实际结果，避免重复付款。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L10"
+        }
+      ],
+      "links": [
+        "O-INSTRUCTION"
+      ],
+      "details": {
+        "domain": "支付",
+        "nature": "合成材料陈述，未获银行批准",
+        "condition": "执行请求超时且实际结果未知",
+        "expression": "先核查原请求执行结果，不直接再次付款",
+        "exceptions": "无明确例外依据",
+        "unknown_handling": "保持未知并查询/人工处理，不能当作失败",
+        "positive_case": "超时且结果未知→核查",
+        "negative_case": "结果未知→直接第二次付款，不符合规则"
+      }
+    },
+    {
+      "id": "O-INSTRUMENT",
+      "kind": "object",
+      "name": "金融工具",
+      "definition": "承载合同性权利义务的金融工具。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L11"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "金融市场",
+        "nature": "合成材料陈述，未获银行批准",
+        "identity": "金融工具标识及标识域"
+      }
+    },
+    {
+      "id": "O-TRADE",
+      "kind": "object",
+      "name": "交易约定",
+      "definition": "一次交易达成的约定。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L11"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "金融市场",
+        "nature": "合成材料陈述，未获银行批准",
+        "identity": "交易约定标识及标识域"
+      }
+    },
+    {
+      "id": "O-POSITION",
+      "kind": "object",
+      "name": "头寸观察",
+      "definition": "指定账户与时点、按明确口径记录的持有或风险状况。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L11"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "金融市场",
+        "nature": "合成材料陈述，未获银行批准",
+        "identity": "账户＋工具＋观察时点＋口径"
+      }
+    },
+    {
+      "id": "E-SETTLEMENT",
+      "kind": "event",
+      "name": "实际结算事件",
+      "definition": "实际发生的结算事实，其发生日期不等同交易日期或约定日期。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L12"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "金融市场",
+        "nature": "合成材料陈述，未获银行批准",
+        "subject": "O-TRADE",
+        "trigger": "取得结算完成证据",
+        "time_basis": "实际发生时间及记录时间分别保存"
+      }
+    },
+    {
+      "id": "O-ALERT",
+      "kind": "object",
+      "name": "合规告警",
+      "definition": "筛查产生的疑点，尚不是违规结论。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L13"
+        }
+      ],
+      "links": [],
+      "details": {
+        "domain": "合规",
+        "nature": "合成材料陈述，未获银行批准",
+        "identity": "告警编号及筛查来源"
+      }
+    },
+    {
+      "id": "O-CONCLUSION",
+      "kind": "object",
+      "name": "调查结论",
+      "definition": "以证据及规则版本为依据形成的调查判断。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L13"
+        }
+      ],
+      "links": [
+        "O-ALERT"
+      ],
+      "details": {
+        "domain": "合规",
+        "nature": "合成材料陈述，未获银行批准",
+        "identity": "调查编号＋结论版本"
+      }
+    },
+    {
+      "id": "A-CLOSE",
+      "kind": "action",
+      "name": "复核关闭告警",
+      "definition": "指定复核员确认关闭，但保留原始事件和调查证据。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L14"
+        }
+      ],
+      "links": [
+        "O-ALERT",
+        "O-CONCLUSION"
+      ],
+      "details": {
+        "domain": "合规",
+        "nature": "合成材料陈述，未获银行批准",
+        "actor": "指定复核员",
+        "authorization": "具备对应告警的复核关闭权限",
+        "preconditions": "调查建议和证据齐备",
+        "effects": "记录关闭判断及审计信息，保留原始证据",
+        "failure": "未获授权或证据不足时不改变关闭状态",
+        "success": "告警关闭结果和审计记录可核对",
+        "idempotency": "按告警和结论版本防重复关闭"
+      }
+    },
+    {
+      "id": "RULE-CURRENCY",
+      "kind": "rule",
+      "name": "按币种汇总",
+      "definition": "未取得汇率来源时只能分别按币种汇总。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L15"
+        }
+      ],
+      "links": [
+        "O-INSTRUCTION",
+        "O-POSITION"
+      ],
+      "details": {
+        "domain": "共享概念",
+        "nature": "合成材料陈述，未获银行批准",
+        "condition": "金额汇总且没有获准汇率来源",
+        "expression": "分币种汇总；缺币种记录不得混入总额",
+        "exceptions": "取得明确换算方法与汇率依据后另行定义",
+        "unknown_handling": "缺币种列为缺口，不默认人民币",
+        "positive_case": "人民币和美元分别汇总",
+        "negative_case": "100人民币加100美元作为200人民币"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q-BALANCE",
+      "question": "ACCT.balance是哪种余额，as_of_date是什么时点？",
+      "blocking": true,
+      "status": "open",
+      "affects": [
+        "P-BALANCE"
+      ]
+    },
+    {
+      "id": "Q-CURRENCY",
+      "question": "支付币种、收款机构和状态码字典从何取得？",
+      "blocking": true,
+      "status": "open",
+      "affects": [
+        "O-INSTRUCTION",
+        "O-ACCOUNTREF"
+      ]
+    },
+    {
+      "id": "Q-HOLDER",
+      "question": "完整账户持有人关系的权威来源是什么？",
+      "blocking": true,
+      "status": "open",
+      "affects": [
+        "O-HOLDING",
+        "M-HOLDER"
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "id": "T-JOINT",
+      "question": "能否从ACCT.party_id恢复全部联名持有人？",
+      "expected": "不能；业务支持联名但源覆盖不足。",
+      "record_ids": [
+        "O-HOLDING",
+        "M-HOLDER"
+      ],
+      "result": "not_run"
+    },
+    {
+      "id": "T-PAY",
+      "question": "支付指令存在是否证明已完成记账？",
+      "expected": "不能，指令、交易、记账是不同事实。",
+      "record_ids": [
+        "O-INSTRUCTION",
+        "O-TRANSACTION",
+        "O-ENTRY"
+      ],
+      "result": "not_run"
+    },
+    {
+      "id": "T-RETRY",
+      "question": "付款超时后是否直接重试？",
+      "expected": "先核查结果，保持未知，不直接重复付款。",
+      "record_ids": [
+        "RULE-RETRY"
+      ],
+      "result": "not_run"
+    },
+    {
+      "id": "T-ALERT",
+      "question": "告警存在是否证明违规？",
+      "expected": "不能；需要独立的调查判断和证据。",
+      "record_ids": [
+        "O-ALERT",
+        "O-CONCLUSION"
+      ],
+      "result": "not_run"
+    },
+    {
+      "id": "T-DATE",
+      "question": "约定结算日与实际日期不同是否自动违约？",
+      "expected": "不能，仅有日期差不能决定违约。",
+      "record_ids": [
+        "E-SETTLEMENT"
+      ],
+      "result": "not_run"
+    },
+    {
+      "id": "T-SHARED",
+      "question": "同一主体兼为账户持有人和交易对手是否复制身份？",
+      "expected": "不因角色不同而复制主体；跨标识域对应仍需证据。",
+      "record_ids": [
+        "O-PARTY"
+      ],
+      "result": "not_run"
+    }
+  ],
+  "decisions": []
+}

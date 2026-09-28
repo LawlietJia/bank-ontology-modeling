@@ -1,0 +1,2963 @@
+{
+  "format": "1.0",
+  "files": [
+    {
+      "path": "source/.github/ISSUE_TEMPLATE/issue.md",
+      "sha256": "50413a1cf1567ac2b1aaccf8a9ad5be24a38006e72f3ac81f777011f84d155ad",
+      "bytes": 130
+    },
+    {
+      "path": "source/.github/pull_request_template.md",
+      "sha256": "d318327410fa74d3934d04f77a182871d0f9eaad26bdda67f7c0f86484b57c7b",
+      "bytes": 907
+    },
+    {
+      "path": "source/.gitignore",
+      "sha256": "af94c254733b3cd3cac3e12e2e658147e199139fc0c242a7c06764050c5f165c",
+      "bytes": 53
+    },
+    {
+      "path": "source/ACTUS/ACTUS-examples.ttl",
+      "sha256": "85f298cf4eab8addb87017a8faaeb1d74ebcfaaadc09de00c8c0079bb9b3b6c3",
+      "bytes": 19780
+    },
+    {
+      "path": "source/ACTUS/ACTUSContractTermMapping.rdf",
+      "sha256": "2d3fd0b4ab33b978d860fc5f9d04591b8d4b967408165f77b197b45ea9d40fe9",
+      "bytes": 37954
+    },
+    {
+      "path": "source/ACTUS/ACTUSContractTerms.rdf",
+      "sha256": "62074186f49b77d56019c2b0ee6ddc4d9ed06eea64b2c04efe9152ad6ffab86e",
+      "bytes": 147787
+    },
+    {
+      "path": "source/ACTUS/ACTUSTaxonomy.rdf",
+      "sha256": "8c65cbd8d5453f3cf4ab3079bcd237d1954c2cf2bd2ae749c904f29212fc8add",
+      "bytes": 52317
+    },
+    {
+      "path": "source/ACTUS/MetadataACTUS.rdf",
+      "sha256": "0dab13930412176c0ad010d7a790d14cfe91f541de263082089d7ab09b398fe5",
+      "bytes": 7329
+    },
+    {
+      "path": "source/ACTUS/catalog-v001.xml",
+      "sha256": "23e0caa729bad9b6f8b86b46571a9e55cbe41ccdecddb47b4a47c12cf82b9ac6",
+      "bytes": 54186
+    },
+    {
+      "path": "source/AboutFIBODev-TBoxOnly.rdf",
+      "sha256": "99992fddedd03b97c22a0dd8b35ca343211cf191a60f623b690e22c1c3d60c3a",
+      "bytes": 21713
+    },
+    {
+      "path": "source/AboutFIBODev.rdf",
+      "sha256": "facc8f3e01738f558a563a6db8fbe1a56330052ccc17a8807847259d4f61386a",
+      "bytes": 29465
+    },
+    {
+      "path": "source/AboutFIBOProd-IncludingReferenceData.rdf",
+      "sha256": "6ab2fc3a255312d418a8b4c3bb8305ea044b0757f4b8579bffa7fbf6d17244ba",
+      "bytes": 32686
+    },
+    {
+      "path": "source/AboutFIBOProd-TBoxOnly.rdf",
+      "sha256": "e29cef0a9d10b073d912484758b07fde7ad4bfec78b59c516f721d3a60e35335",
+      "bytes": 17308
+    },
+    {
+      "path": "source/AboutFIBOProd.rdf",
+      "sha256": "6f14a70427a35359cfd03b4cc62d3174db09c7d1c506ae769e846001f2a9c195",
+      "bytes": 24049
+    },
+    {
+      "path": "source/BE/AllBE-Europe.rdf",
+      "sha256": "92312c39288150b2f7a6a72dec88645f771dbf5946db5b490df77e7930ff4fa8",
+      "bytes": 8858
+    },
+    {
+      "path": "source/BE/AllBE-NorthAmerica.rdf",
+      "sha256": "3feedee4934dc1583c4c83a8b0069c953dd3b35fe302a525b64ecd9e1ee38796",
+      "bytes": 8461
+    },
+    {
+      "path": "source/BE/AllBE-ReferenceIndividuals.rdf",
+      "sha256": "8af99d714892fbaca984438efb7b6b2841400bc9f152dd6e8de6b22a3fc204ec",
+      "bytes": 7184
+    },
+    {
+      "path": "source/BE/AllBE.rdf",
+      "sha256": "460e19b552e33788311bbba9f994e59ebdf4fa0895e654f406adb385de7339eb",
+      "bytes": 11064
+    },
+    {
+      "path": "source/BE/Corporations/Corporations.rdf",
+      "sha256": "9d0dd0cd6fb33cc59011891b96cb400d370515ff04464f69e1c8777dac5fd257",
+      "bytes": 10945
+    },
+    {
+      "path": "source/BE/Corporations/MetadataBECorporations.rdf",
+      "sha256": "1e0a364748ada8b2c57c94ac9b7ed1add8371f29a17dc4d8d4d3bd665a84d89f",
+      "bytes": 3471
+    },
+    {
+      "path": "source/BE/FunctionalEntities/FunctionalEntities.rdf",
+      "sha256": "57e9067f3a1d88945e24c18079ae48c54444bbbc9255fee5c804bfd4ae28f313",
+      "bytes": 23084
+    },
+    {
+      "path": "source/BE/FunctionalEntities/MetadataBEFunctionalEntities.rdf",
+      "sha256": "5dc8584b809a655b4a2735055399f23b3cafafefdec43b090281073e068a2fa7",
+      "bytes": 3806
+    },
+    {
+      "path": "source/BE/FunctionalEntities/Publishers.rdf",
+      "sha256": "52dc4fa3121b945675a09d16cf2ac667857ea974e3e8d588be8576218b9a93d6",
+      "bytes": 14672
+    },
+    {
+      "path": "source/BE/GovernmentEntities/AsianJurisdiction/CentralAsiaGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "633c10589410bff017f22c87b0d4dff574d1d043c36e089c76172bca9b79038c",
+      "bytes": 14476
+    },
+    {
+      "path": "source/BE/GovernmentEntities/AsianJurisdiction/EasternAsiaGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "fff5f7bed3e877b59e379ef09fc8b91cd51cb6e35beca37aa7e92cc6092947f9",
+      "bytes": 20416
+    },
+    {
+      "path": "source/BE/GovernmentEntities/AsianJurisdiction/SoutheasternAsiaGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "ddb2889821eba9001ff25b0f2b2f8fab33174ad7ec63013d18fd079fff130b99",
+      "bytes": 26712
+    },
+    {
+      "path": "source/BE/GovernmentEntities/AsianJurisdiction/SouthernAsiaGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "500480d4ac9ad4b85cf496570d2bfb0760c2ccc149c018f5880582ab4a57b857",
+      "bytes": 21894
+    },
+    {
+      "path": "source/BE/GovernmentEntities/AsianJurisdiction/WesternAsiaGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "afb1a152df48e94d704e74838d8571949b767a4c206c75d532df492888bed00c",
+      "bytes": 37461
+    },
+    {
+      "path": "source/BE/GovernmentEntities/EuropeanJurisdiction/EUGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "e4ea40cbe15054ce0a6c791ecc1ad7797855439eabf003ec279ec3edcd6a4c62",
+      "bytes": 26902
+    },
+    {
+      "path": "source/BE/GovernmentEntities/EuropeanJurisdiction/EasternEuropeGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "1bedfa3f9e8129517f3ce5b23d2b9038c0fb3c7821f3532b6658213a13ba718e",
+      "bytes": 27148
+    },
+    {
+      "path": "source/BE/GovernmentEntities/EuropeanJurisdiction/NorthernEuropeGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "74962bb49d3cdbee9b21b0809cbd653dc0e6f676fa01ae8f65d3c4f7293bae83",
+      "bytes": 27591
+    },
+    {
+      "path": "source/BE/GovernmentEntities/EuropeanJurisdiction/SouthernEuropeGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "2832a0e528d609f419b1750db03dd7a17f6be098402d14888d828c1e4bf9ad1c",
+      "bytes": 37261
+    },
+    {
+      "path": "source/BE/GovernmentEntities/EuropeanJurisdiction/UKGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "0e5be74d435f1caca7b581e54722eeeefeb54d3e5cece4c2a7004610442fb30a",
+      "bytes": 21976
+    },
+    {
+      "path": "source/BE/GovernmentEntities/EuropeanJurisdiction/WesternEuropeGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "496869e6cf9b3b7437b9e346b76a4fb9788c980f94f9dc687c17ad42292b4cd5",
+      "bytes": 23314
+    },
+    {
+      "path": "source/BE/GovernmentEntities/GovernmentEntities.rdf",
+      "sha256": "811c4579da9e3fe338cf3ed44acee8f282ef517d0432794e1ea9a358a941f28d",
+      "bytes": 39790
+    },
+    {
+      "path": "source/BE/GovernmentEntities/LatinAmericanJurisdiction/CentralAmericanGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "d714987c9a5b372dea1c819389a48654aeb4ed913d320931aa15cadaf0d10e6a",
+      "bytes": 18321
+    },
+    {
+      "path": "source/BE/GovernmentEntities/LatinAmericanJurisdiction/SouthAmericanGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "6b7fc95f55acc4cd3206004a4ded3235dc3cc7263e9bf2da75beeb9b5bd2e5d6",
+      "bytes": 28291
+    },
+    {
+      "path": "source/BE/GovernmentEntities/MetadataBEGovernmentEntities.rdf",
+      "sha256": "c4e908bdfa16faea2a92c785e01857c33ef02ebc55d6a01812ea6cb58123c7ee",
+      "bytes": 6303
+    },
+    {
+      "path": "source/BE/GovernmentEntities/NorthAmericanJurisdiction/CAGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "319dbaf677bc321ce33d4f604c3edef60cbdd389193f83cbcfe2a5576d5a29cc",
+      "bytes": 40716
+    },
+    {
+      "path": "source/BE/GovernmentEntities/NorthAmericanJurisdiction/CaribbeanGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "78956bbc749845d68481b33540846b5a167536a5950e1f20af9a6bb7697ecccf",
+      "bytes": 33721
+    },
+    {
+      "path": "source/BE/GovernmentEntities/NorthAmericanJurisdiction/MXGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "370a776cddf22e2cbea5f40376c234fc50225828e4d68a6b042f2f3c601deb8e",
+      "bytes": 11771
+    },
+    {
+      "path": "source/BE/GovernmentEntities/NorthAmericanJurisdiction/USGovernmentEntitiesAndJurisdictions.rdf",
+      "sha256": "26fc33ef106345009c23aef35a37316a03f3640ebd9d0c2c7cf83c48f9fde93e",
+      "bytes": 143081
+    },
+    {
+      "path": "source/BE/LegalEntities/CorporateBodies.rdf",
+      "sha256": "13bcc4c012154230cd00f775c3ec12f4cf29616e7c484f2b2b9f61f659dd3235",
+      "bytes": 29524
+    },
+    {
+      "path": "source/BE/LegalEntities/FormalBusinessOrganizations.rdf",
+      "sha256": "60686e1934350885e2c1fdd78a99e7d9ad6ca49f3f4ea0b15b52e185028d6f7b",
+      "bytes": 22391
+    },
+    {
+      "path": "source/BE/LegalEntities/LEIEntities.rdf",
+      "sha256": "6a24df8bfa2923512cdde5c48c725b9ab505a6d1fe0082d29c97071adf61e29e",
+      "bytes": 39015
+    },
+    {
+      "path": "source/BE/LegalEntities/LegalPersons.rdf",
+      "sha256": "d55897f004e97c7ad355ca8800641805f3836338a1c9cdb58614c7b5ef5eb101",
+      "bytes": 25138
+    },
+    {
+      "path": "source/BE/LegalEntities/MetadataBELegalEntities.rdf",
+      "sha256": "dccb56a118a2ac79819680b64ce16c46d79c4deada085dcbc700c166b724f1c6",
+      "bytes": 7067
+    },
+    {
+      "path": "source/BE/MetadataBE.rdf",
+      "sha256": "28e1d18365628889c8c80d452ce763876adddbc26e4d091bde2b4d9c0b086706",
+      "bytes": 12900
+    },
+    {
+      "path": "source/BE/OwnershipAndControl/ControlParties.rdf",
+      "sha256": "4f6951000cd1170174aa5e156e7febf2fed7fb0e4dc7e61ce2b0fec9a47f2c5f",
+      "bytes": 23210
+    },
+    {
+      "path": "source/BE/OwnershipAndControl/CorporateControl.rdf",
+      "sha256": "8bef1195064a29e2a15322a2773afc815f0cfd170a0d821bd49a3687a8f0e120",
+      "bytes": 22358
+    },
+    {
+      "path": "source/BE/OwnershipAndControl/CorporateOwnership.rdf",
+      "sha256": "caa7cd8e61645849921ba376344ef633c90bcebf3c8775689522b9b0a896cc83",
+      "bytes": 20096
+    },
+    {
+      "path": "source/BE/OwnershipAndControl/Executives.rdf",
+      "sha256": "ff46f7ca3fb1c5d7e02edd8a612679965c9444894848494d58b1fef5ed39ad1b",
+      "bytes": 48210
+    },
+    {
+      "path": "source/BE/OwnershipAndControl/MetadataBEOwnershipAndControl.rdf",
+      "sha256": "7af0eb041fe9e774a192ddc2a9c50eed2fe60cc22e074ae0646ab9db63070745",
+      "bytes": 5424
+    },
+    {
+      "path": "source/BE/OwnershipAndControl/OwnershipParties.rdf",
+      "sha256": "05f6b0a9db27eee7ef7f4a56cb5a348b03d9bfa1b0fd72bec5b17815af3d39bf",
+      "bytes": 24496
+    },
+    {
+      "path": "source/BE/Partnerships/MetadataBEPartnerships.rdf",
+      "sha256": "03e6a69b0d3b11751bdcb81e5bd6d0a47a8eb1bba32defb3e829602ba8a1df21",
+      "bytes": 3996
+    },
+    {
+      "path": "source/BE/Partnerships/Partnerships.rdf",
+      "sha256": "fdca04ae8217b65cdcfccf96c87010c903e8667d9c102a8d632285375d71ad70",
+      "bytes": 23047
+    },
+    {
+      "path": "source/BE/PrivateLimitedCompanies/MetadataBEPrivateLimitedCompanies.rdf",
+      "sha256": "fc261e06e967192ee676da4c238e1f454f7a49d18bb86e7ce0b8e629655fd926",
+      "bytes": 3761
+    },
+    {
+      "path": "source/BE/PrivateLimitedCompanies/PrivateLimitedCompanies.rdf",
+      "sha256": "2f0d8b87d9db83d0726fef47222f049d990d526212b1968e54abb88d68f24341",
+      "bytes": 16223
+    },
+    {
+      "path": "source/BE/README.md",
+      "sha256": "f8c7e760344ee7e3f4635d0eab3defcfc43a9810373fd64e0e35ba0b7c0850c9",
+      "bytes": 529
+    },
+    {
+      "path": "source/BE/SoleProprietorships/MetadataBESoleProprietorships.rdf",
+      "sha256": "5e16eb59d70e18a3d1959fc73ca86678af2598e93c6cbaee6701a297f09dcd17",
+      "bytes": 3735
+    },
+    {
+      "path": "source/BE/SoleProprietorships/SoleProprietorships.rdf",
+      "sha256": "35de4651fbcccc32e636480f38008424b8f5330ff6995c559b2ec949e32a3497",
+      "bytes": 9885
+    },
+    {
+      "path": "source/BE/Trusts/MetadataBETrusts.rdf",
+      "sha256": "9ccbb3a01d3f24201d9de9cd191faf5920e06ccd3edd76c9858452168e46d416",
+      "bytes": 3535
+    },
+    {
+      "path": "source/BE/Trusts/Trusts.rdf",
+      "sha256": "013d5d1bc25215ddc83e1e764e38fa0c7ddf62894fc08e3a113e7f9479793da5",
+      "bytes": 20936
+    },
+    {
+      "path": "source/BE/catalog-v001.xml",
+      "sha256": "a5aa2537680813cad049a0c144f985be78f04afbf487d4c2f6f35b5aa7175e95",
+      "bytes": 19126
+    },
+    {
+      "path": "source/BP/MetadataBP.rdf",
+      "sha256": "ed735ac26464bea7561b5a029b96080cedb79fa6b2848e2555bc1537a700230a",
+      "bytes": 7495
+    },
+    {
+      "path": "source/BP/Process/FinancialContextAndProcess.rdf",
+      "sha256": "4dcc92b5154a94d8c5fae071bbec8a330bfcf065f1158820538307ac5a2e87b4",
+      "bytes": 11102
+    },
+    {
+      "path": "source/BP/Process/MetadataBPProcess.rdf",
+      "sha256": "c9eb9390a13aabd230fba9e1b2b2ebbbc18da2c0a0561222fbbda13929f0103b",
+      "bytes": 3250
+    },
+    {
+      "path": "source/BP/README.md",
+      "sha256": "f73a30b17b4dc53e320fe5411be88b0ca5a969fe037bc42ad7981276252cb118",
+      "bytes": 766
+    },
+    {
+      "path": "source/BP/SecuritiesIssuance/AgencyMBSIssuance.rdf",
+      "sha256": "1a79107437fc0e0320140bda79c94c55016a10fff4596897bf701fc0b26d2fb2",
+      "bytes": 27762
+    },
+    {
+      "path": "source/BP/SecuritiesIssuance/DebtIssuance.rdf",
+      "sha256": "d862c5e994f710113de660ffaee9637fea9063e3643acc77a569fc11ccc531ec",
+      "bytes": 26111
+    },
+    {
+      "path": "source/BP/SecuritiesIssuance/EquitiesIPOIssuance.rdf",
+      "sha256": "2475a43547951031ee1f4b847e16fe698215f7fed3a1d52fcbb72d8d94a090ea",
+      "bytes": 18659
+    },
+    {
+      "path": "source/BP/SecuritiesIssuance/IssuanceDocuments.rdf",
+      "sha256": "4b0831f7f2a35f076dd9945c9256743407e4246fd168f6a4984fc37f31081b9e",
+      "bytes": 8543
+    },
+    {
+      "path": "source/BP/SecuritiesIssuance/IssuanceProcess.rdf",
+      "sha256": "45a1c4c7aec4898fe897c042bd704ee639fef31190c1e88a00099af7751ff7d9",
+      "bytes": 33513
+    },
+    {
+      "path": "source/BP/SecuritiesIssuance/MBSIssuance.rdf",
+      "sha256": "54be24c0d2589ee06a8a1160d9a529f4954b9ad44be047a54365a15e39e905a7",
+      "bytes": 4338
+    },
+    {
+      "path": "source/BP/SecuritiesIssuance/MetadataBPSecuritiesIssuance.rdf",
+      "sha256": "79075c2fb4ecd040ebf9a684d110863fb4801272748bbe46c24ceb8a28b74b6c",
+      "bytes": 4336
+    },
+    {
+      "path": "source/BP/SecuritiesIssuance/MuniIssuance.rdf",
+      "sha256": "e88d228613e3a2e2c3c6fedc8a3337024a4afd5c31d43d372e50eab7cb93fad0",
+      "bytes": 46568
+    },
+    {
+      "path": "source/BP/SecuritiesIssuance/PrivateLabelMBSIssuance.rdf",
+      "sha256": "297a9b1ba23d4230ae9469b6c9b90533e0dec69c681d7d515e8a2986175e0025",
+      "bytes": 49613
+    },
+    {
+      "path": "source/CAE/AllCAE.rdf",
+      "sha256": "d658955ee38823338394a4412a00acec2c43324c142264fb539d849307889bcc",
+      "bytes": 4661
+    },
+    {
+      "path": "source/CAE/CorporateEvents/CorporateActions.rdf",
+      "sha256": "ee1294446b9c2e29fce4bedb3330ff7249750c2ff1ad71cb4cb3a878b57ce9a3",
+      "bytes": 24999
+    },
+    {
+      "path": "source/CAE/CorporateEvents/GLEIF-CorporateActionIndividuals.rdf",
+      "sha256": "b7a43aee30c910e3ab6970bc909e0f344de1a67d94bb86e1de48c6306e303436",
+      "bytes": 20549
+    },
+    {
+      "path": "source/CAE/CorporateEvents/ISO15022-CorporateActionIndividuals.rdf",
+      "sha256": "d3759e0d15b2fb3661d3fa71bd9cebdf26a690564f8159b700734b9b78874cd1",
+      "bytes": 39384
+    },
+    {
+      "path": "source/CAE/CorporateEvents/MetadataCAECorporateEvents.rdf",
+      "sha256": "ec32b67b0758210b78f76263be3fa8a7ea51627b9ef9319f82e7a30b7530125d",
+      "bytes": 3881
+    },
+    {
+      "path": "source/CAE/CorporateEvents/SecurityRelatedCorporateActions.rdf",
+      "sha256": "b69a6b7023b177604d994ee518f3b93efc193b6110c4f83aed086f2abff66036",
+      "bytes": 42019
+    },
+    {
+      "path": "source/CAE/MetadataCAE.rdf",
+      "sha256": "a2addefc1a33c879db97b67c2855383f7cbbbe0ef8dc7a6c43e3216939498ad6",
+      "bytes": 8002
+    },
+    {
+      "path": "source/CAE/README.md",
+      "sha256": "422b30b61b975a3ac5299a8de3109df24eff7ba9c38b6c2e143a79edd1ebf7b3",
+      "bytes": 786
+    },
+    {
+      "path": "source/CODE_OF_CONDUCT.md",
+      "sha256": "161de1c8f49eb2f78dbb7d82ef27cc1ee26de0863020cc20de881811a51cf660",
+      "bytes": 5255
+    },
+    {
+      "path": "source/CONTRIBUTING.md",
+      "sha256": "328454553489b53cfd0d39b0853a84e6011f7d3c1a7100dccd523805def15ff0",
+      "bytes": 21417
+    },
+    {
+      "path": "source/DCO",
+      "sha256": "53a0a460f8eccb279580aa16013c5f98936eba73554d267632f5ea83d8e890b1",
+      "bytes": 1421
+    },
+    {
+      "path": "source/DER/AllDER-ReferenceIndividuals.rdf",
+      "sha256": "6ea3c1f866a6d3935da4beb5ee6229928d34b07298c77f564a44bce4fdd3401c",
+      "bytes": 4827
+    },
+    {
+      "path": "source/DER/AllDER.rdf",
+      "sha256": "abdbcca48da629dfd0d7d3be581eca394360c3a811f40f2d81566171dd5a81b1",
+      "bytes": 10822
+    },
+    {
+      "path": "source/DER/CreditDerivatives/CreditDefaultSwaps.rdf",
+      "sha256": "78043cd09aa459816ef8841ef3ebabaabab8d860a93b19d90973bf9500554807",
+      "bytes": 39854
+    },
+    {
+      "path": "source/DER/CreditDerivatives/MetadataDERCreditDerivatives.rdf",
+      "sha256": "1d175001ea5decbbeafab52bd11856ba734010d2bb3447c024fa9af17a9434d0",
+      "bytes": 3699
+    },
+    {
+      "path": "source/DER/DerivativesContracts/CommoditiesContracts.rdf",
+      "sha256": "8d7b6e77a072d2aa0a1e9c986dadd51dcc1b3a6b578d1ee2d034cd5d14c6ccaf",
+      "bytes": 39197
+    },
+    {
+      "path": "source/DER/DerivativesContracts/CurrencyContracts.rdf",
+      "sha256": "8b8adc0e51d2b353ef3adc2850c2a145cd3a5387bf22045f1cf1fc2a23b80875",
+      "bytes": 24249
+    },
+    {
+      "path": "source/DER/DerivativesContracts/DerivativesBasics.rdf",
+      "sha256": "7d7f2d2104ba16dac20a7e146c05040804289caf378ab498b0d6b33f3183772d",
+      "bytes": 53266
+    },
+    {
+      "path": "source/DER/DerivativesContracts/DerivativesMasterAgreements.rdf",
+      "sha256": "22206f339bd85baab5bc8cf09177951e44748ed6ee06ebcf3104f74fdbc1b2f6",
+      "bytes": 9419
+    },
+    {
+      "path": "source/DER/DerivativesContracts/ExoticOptions.rdf",
+      "sha256": "55071f96ef4ea85be82a2787989a073cf6f8f71f49d4b17e3a9be027e083a4c5",
+      "bytes": 67374
+    },
+    {
+      "path": "source/DER/DerivativesContracts/FuturesAndForwards.rdf",
+      "sha256": "b00c89431c6e07338774ff2a6af5a639d534f96303ac60788d34340075d39a0b",
+      "bytes": 38434
+    },
+    {
+      "path": "source/DER/DerivativesContracts/MetadataDERDerivativesContracts.rdf",
+      "sha256": "9d983d33fe3b7479eaa48ee71a61f4a74d0809e37214fe952143303383cc6011",
+      "bytes": 7061
+    },
+    {
+      "path": "source/DER/DerivativesContracts/Options.rdf",
+      "sha256": "8ffc8a523f6695315d1026119787340c2f24bc3f8f6373a572f8fbeb88a8f085",
+      "bytes": 66673
+    },
+    {
+      "path": "source/DER/DerivativesContracts/RightsAndWarrants.rdf",
+      "sha256": "87f7a557fb95d19ab913e2e2aee2c2f8fb1fdb7e8f41df9764863b6bf49e9a64",
+      "bytes": 52269
+    },
+    {
+      "path": "source/DER/DerivativesContracts/StructuredInstruments.rdf",
+      "sha256": "7d4335bea0a4fba9f203f06842515f37074c64049de0e71ac98733eb2ca86974",
+      "bytes": 43353
+    },
+    {
+      "path": "source/DER/DerivativesContracts/Swaps.rdf",
+      "sha256": "7a8f5ee84548ce14a07fa5b38c2e9356713ee67d91508f24928d2ce9933dc28a",
+      "bytes": 54931
+    },
+    {
+      "path": "source/DER/DerivativesContracts/SwapsIndividuals.rdf",
+      "sha256": "beb08b75fd859d43041612629fd09d3df0a855aa908f788203bf88f1b7d67268",
+      "bytes": 14849
+    },
+    {
+      "path": "source/DER/MetadataDER.rdf",
+      "sha256": "1d9b067ee470a1e5ccd6cbe15528b83aa6996417f5a68b2dffa3ab708c07b250",
+      "bytes": 9076
+    },
+    {
+      "path": "source/DER/README.md",
+      "sha256": "f0fed987e7b1ab3da8047dad4cf14f4136c0fdc212a1f3ac2bdcb4c8db897bd6",
+      "bytes": 554
+    },
+    {
+      "path": "source/DER/RateDerivatives/IRSwaps.rdf",
+      "sha256": "9609c215a83500608f0bc7056697e1dac637f2184c9919eb5242bbd9cc254111",
+      "bytes": 44493
+    },
+    {
+      "path": "source/DER/RateDerivatives/MetadataDERRateDerivatives.rdf",
+      "sha256": "ddff33929ad9cf6e49b77eaae9da53cc8dbb9ae6cfc48050f2697c182cb45fe9",
+      "bytes": 7096
+    },
+    {
+      "path": "source/DER/RateDerivatives/RateDerivatives.rdf",
+      "sha256": "be28c7b6ee25b6ac7458fcf382598802b3b2b0e334778bea746a5413e0a9110a",
+      "bytes": 8337
+    },
+    {
+      "path": "source/DER/SecurityBasedDerivatives/EquitySwaps.rdf",
+      "sha256": "8346f5184c9f000d747a26f3673d1fd296441503dcaef60b79b487a16c0b614b",
+      "bytes": 21138
+    },
+    {
+      "path": "source/DER/SecurityBasedDerivatives/MetadataDERSecurityBasedDerivatives.rdf",
+      "sha256": "ccf2d3e9174a7cca70671db9f44688a46b1fb47f61b88472ade3d9462bb04b19",
+      "bytes": 5000
+    },
+    {
+      "path": "source/DER/SecurityBasedDerivatives/SecurityBasedDerivatives.rdf",
+      "sha256": "1775c15451ced7feaba9da58f9ac80e45be8bae5484af49a61bc29786af742ce",
+      "bytes": 22621
+    },
+    {
+      "path": "source/EXMP/LegalEntities/DowJonesIndustrialAverageCompanies.rdf",
+      "sha256": "dfbb221d65d48d1621ca3ff21e6ffc767e83e280f2f32028d83a27e9370afaff",
+      "bytes": 51538
+    },
+    {
+      "path": "source/EXMP/LegalEntities/DowJonesIndustrialAverageExecutives.rdf",
+      "sha256": "e658c61f6d73e56680e79f5cc89c38d2226792e4b4c48eec6d4c0c59088885cf",
+      "bytes": 15002
+    },
+    {
+      "path": "source/EXMP/LegalEntities/FinancialInstitutionExamples.rdf",
+      "sha256": "496d49a17c9840f791bb805d3056104e7eed1ad33d14e74cee9bb3b234395f33",
+      "bytes": 207655
+    },
+    {
+      "path": "source/EXMP/LegalEntities/MarketsAndExchangesExamples.rdf",
+      "sha256": "bfd0ec779abccf8c81888173092420cba6ae607e3477e921733d2cbbbb26bab4",
+      "bytes": 51862
+    },
+    {
+      "path": "source/EXMP/LegalEntities/MetadataEXMPLegalEntities.rdf",
+      "sha256": "ff5bb7c2136979fbc09eb69b945255ea65b7e7ff8c94cbe3e5debd8a94ccfa85",
+      "bytes": 5955
+    },
+    {
+      "path": "source/EXMP/MetadataEXMP.rdf",
+      "sha256": "e4551a50e1f5046ac4ab22e08b1aefa2e560933a4b2c46309dc8d2e4499887bf",
+      "bytes": 6728
+    },
+    {
+      "path": "source/EXMP/Securities/EquitiesExamples.rdf",
+      "sha256": "5121484ecc135171634465e92405b441c319d5c1f68d7ed5d89c630ef931f2aa",
+      "bytes": 75371
+    },
+    {
+      "path": "source/EXMP/Securities/EquityIndexExamples.rdf",
+      "sha256": "6ff8c7e078451ba77e3d4719f19da8481dde444ca780272ea8b8e755bb58a42c",
+      "bytes": 27437
+    },
+    {
+      "path": "source/EXMP/Securities/IRSwapExamples.rdf",
+      "sha256": "83c92eded18e7c6bc7fd7475980672aa428b4f3b180dd55b00612352a174d447",
+      "bytes": 25511
+    },
+    {
+      "path": "source/EXMP/Securities/MetadataEXMPSecurities.rdf",
+      "sha256": "578703294c68721cd4e1cf2e4711d6d1387a34aeca136c8525fe8c64a4eced11",
+      "bytes": 5700
+    },
+    {
+      "path": "source/FBC/AllFBC-Europe.rdf",
+      "sha256": "1508f65966f2b637638c9968473ae11ad7becf71e4f565841e1d3533f425be0f",
+      "bytes": 6989
+    },
+    {
+      "path": "source/FBC/AllFBC-EuropeAndNorthAmerica.rdf",
+      "sha256": "93b9b0279d6cbda09912c33d0b9e775c48020c1c1e438bec40ef0ac9086823e6",
+      "bytes": 5829
+    },
+    {
+      "path": "source/FBC/AllFBC-NorthAmerica.rdf",
+      "sha256": "67b1bed39bc537e0587cbe3380b2717b3636cf3a58908e9b3208a1758b27372d",
+      "bytes": 8280
+    },
+    {
+      "path": "source/FBC/AllFBC-NorthAmericanExamples.rdf",
+      "sha256": "f1ee29bd2237e2e05d29ecdcb0c987db9d3529b15515758a61087c5a2b957b75",
+      "bytes": 6161
+    },
+    {
+      "path": "source/FBC/AllFBC-ReferenceIndividuals.rdf",
+      "sha256": "4437ee0f8245a0f102427f4af545ce7270759b11d6218c9ea21f63cd3e0e3491",
+      "bytes": 6107
+    },
+    {
+      "path": "source/FBC/AllFBC-ReferenceMarkets.rdf",
+      "sha256": "9265210d1ed0ccb7202133c0d3ebfa0c635305d685a7837edd8932bf13b13c4a",
+      "bytes": 6746
+    },
+    {
+      "path": "source/FBC/AllFBC.rdf",
+      "sha256": "cf4b7f46ab5f3cdc318169ed43a03d22682180445e06365106bfbda43e712d90",
+      "bytes": 9766
+    },
+    {
+      "path": "source/FBC/DebtAndEquities/CreditEvents.rdf",
+      "sha256": "1d3df1c69304ab50a1bbd9de4bab3ef1bb1342670894db940ccf5e175687caa7",
+      "bytes": 27376
+    },
+    {
+      "path": "source/FBC/DebtAndEquities/CreditRatings.rdf",
+      "sha256": "97a8c8790e28c796fd2de5219a75899a263eb47c512a825840873222e41fe5a3",
+      "bytes": 30671
+    },
+    {
+      "path": "source/FBC/DebtAndEquities/Debt.rdf",
+      "sha256": "e0ff6864aefb7163930c3cc4d920725ef8a835c739f26da5c4b980eca08c1147",
+      "bytes": 103624
+    },
+    {
+      "path": "source/FBC/DebtAndEquities/Guaranty.rdf",
+      "sha256": "0fa2feace1cb6966ce3af7002862b16336d7a5576b815e022e4c383e680d2e55",
+      "bytes": 25672
+    },
+    {
+      "path": "source/FBC/DebtAndEquities/MetadataFBCDebtAndEquities.rdf",
+      "sha256": "9a64daef033513f6f10c7a9fd175ffd64bc9fae5a373ff0ffa5ddf0603f7cdd5",
+      "bytes": 3946
+    },
+    {
+      "path": "source/FBC/FinancialInstruments/FinancialInstruments.rdf",
+      "sha256": "f12707677bb6590a80f68ee305a8cddd3a68b8b9e31f493774d864dc060229d0",
+      "bytes": 56770
+    },
+    {
+      "path": "source/FBC/FinancialInstruments/InstrumentPricing.rdf",
+      "sha256": "a796a751bdfac7d3f092b7505c92e6bda1996a3749bbd4b222cac31a0c9e33fa",
+      "bytes": 45723
+    },
+    {
+      "path": "source/FBC/FinancialInstruments/MetadataFBCFinancialInstruments.rdf",
+      "sha256": "1d18540ab66ba494848e87db9bcd2ac8942f92b5e9345af8aeef68620a52f427",
+      "bytes": 4048
+    },
+    {
+      "path": "source/FBC/FinancialInstruments/Settlement.rdf",
+      "sha256": "45ed22079ecc6b6f90f75ae6d3ebff9c7228e716509bc4fb701e03b77e6daae1",
+      "bytes": 19901
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/BusinessCenters.rdf",
+      "sha256": "1d1d6450712a3c27901386d6a0cc3dc449b4f6fba74867389596e7b887464a49",
+      "bytes": 9521
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/BusinessCentersIndividuals.rdf",
+      "sha256": "c092f7f2fff5cd445eb0bde50ddc64c2cd3c655189e693bdc47153748798f827",
+      "bytes": 230839
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/BusinessRegistries.rdf",
+      "sha256": "2352370c07fff60d7d5e82ad1cc503ebcb49280172bd68638c4989ca6ebc06c2",
+      "bytes": 62465
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/CommercialRegistrationAuthorities.rdf",
+      "sha256": "bc236c4254c0903a25360fbff5b57943331bd16ce28eb8c3503b95606abf9c9c",
+      "bytes": 125908
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/EuropeanEntities/EUFinancialServicesEntities.rdf",
+      "sha256": "909275bc01b8952cb65c03c8d350d22d7064d0fcbc607434bb30ad8b8834b3ba",
+      "bytes": 12234
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/EuropeanEntities/EURegulatoryAgencies.rdf",
+      "sha256": "d2c794214454ece579dd57d4f708b9894af9082792c54742b5bd583fa9c54380",
+      "bytes": 27385
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/EuropeanEntities/EuropeanFinancialServicesEntitiesIndividuals.rdf",
+      "sha256": "afd12e8b79dc5a90341ee55660ada1390d4fc4f02931872eeb337952b2b3988e",
+      "bytes": 19040
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/FinancialServicesEntities.rdf",
+      "sha256": "f1047cce38f164b6f49bd6c21a340073f0168ff1b36a491e1556b79ad7d6d0da",
+      "bytes": 82365
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/InternationalRegistriesAndAuthorities.rdf",
+      "sha256": "b1d1671b600dbd1c019e9c6ec6e3430e698e80695e8611a620185cd315fcb195",
+      "bytes": 33260
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/Markets.rdf",
+      "sha256": "f7728e3c1bcea3b68875b46728fd29754a5f9f45b012076544a7fbcbbd958582",
+      "bytes": 72297
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/MarketsIndividuals.rdf",
+      "sha256": "4f1b6f7a080de4d6cb3e28b50ac31134176bf6755db85d5214eb03e5b30cb14e",
+      "bytes": 4710314
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/MetadataFBCFunctionalEntities.rdf",
+      "sha256": "0ef22282c23e44943c9830da19d5379904fcaedcaa8abcf8e07b65f9aa184442",
+      "bytes": 8646
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/NorthAmericanEntities/CAFinancialServicesEntities.rdf",
+      "sha256": "72a4999f880c6e951d16b51b4169bb1c0045d31d701bade1bf583488eb042162",
+      "bytes": 7300
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/NorthAmericanEntities/CARegulatoryAgencies.rdf",
+      "sha256": "582fccfb9de05a2c17b66fb4adbf0567f7f2a78f165afffc8322eb28db89ced2",
+      "bytes": 51792
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/NorthAmericanEntities/USFinancialServicesEntities.rdf",
+      "sha256": "76ce3af8979057ca0f2d5a600b06339dcff726d8742f72591f8b6233543b760f",
+      "bytes": 81140
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/NorthAmericanEntities/USNationalInformationCenterControlledVocabularies.rdf",
+      "sha256": "af6a337dcc3152b5be4f8d698ba9270f616e2db12041bc4e896f5f48aa91d4db",
+      "bytes": 38422
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/NorthAmericanEntities/USRegulatoryAgencies.rdf",
+      "sha256": "3b4ad26d713da6e9f5867d405f3ceb7af030a4806b7b905c57dbc07da5e9b504",
+      "bytes": 183273
+    },
+    {
+      "path": "source/FBC/FunctionalEntities/RegulatoryAgencies.rdf",
+      "sha256": "5036f185222c9c52a3baaebe9ce59f238c07dd02b5576703067509f07dacaafb",
+      "bytes": 18420
+    },
+    {
+      "path": "source/FBC/MetadataFBC.rdf",
+      "sha256": "edc8db865ea40af3638f348095fc03ddb6c60ff43813a97ca97b4cba223cce8e",
+      "bytes": 9303
+    },
+    {
+      "path": "source/FBC/ProductsAndServices/ClientsAndAccounts.rdf",
+      "sha256": "48e1d347b97577a140785f28f6c0321950a5ab057f5e0ac5104e6d63dcf6e671",
+      "bytes": 82924
+    },
+    {
+      "path": "source/FBC/ProductsAndServices/FinancialProductsAndServices.rdf",
+      "sha256": "84cfba5ccf3a9074027fd001fcfda12ef91a5a2aa7c5d9e976e7a68ee2014321",
+      "bytes": 90893
+    },
+    {
+      "path": "source/FBC/ProductsAndServices/MetadataFBCProductsAndServices.rdf",
+      "sha256": "2df4a611d276111978c4bd29defe5e3ca03a4d2efe6ca89cb237dab16863b6a3",
+      "bytes": 3961
+    },
+    {
+      "path": "source/FBC/README.md",
+      "sha256": "52bdde6734a82d5dd0a44f42cca6325fcd3c2310c87ab53f843c3585708ff01b",
+      "bytes": 667
+    },
+    {
+      "path": "source/FND/Accounting/AccountingEquity.rdf",
+      "sha256": "e61603ef59e1b353fdef960c04f6d081a4590d27aa28318c60c0dc640d9cdccf",
+      "bytes": 11047
+    },
+    {
+      "path": "source/FND/Accounting/CashFlows.rdf",
+      "sha256": "3ce1b7e2334a77dbb87b79e81c49fb4def636c75188375e6c4887d03448ad4f7",
+      "bytes": 9714
+    },
+    {
+      "path": "source/FND/Accounting/CurrencyAmount.rdf",
+      "sha256": "fe5b6c81be202255d76f0ad61c7fedbcbed08a6e7bd1fcd9a491fe568db7cfce",
+      "bytes": 36093
+    },
+    {
+      "path": "source/FND/Accounting/ISO4217-CurrencyCodes.rdf",
+      "sha256": "3be16170afea0e7de5155740dc7639a097aa86deb6561e4b59b7f645ee2fc734",
+      "bytes": 215229
+    },
+    {
+      "path": "source/FND/Accounting/MetadataFNDAccounting.rdf",
+      "sha256": "2bc0c57a77825eaaca0faae70d5713a51d7c10769974a55860f1c65385d84d05",
+      "bytes": 5859
+    },
+    {
+      "path": "source/FND/AgentsAndPeople/Agents.rdf",
+      "sha256": "f40cfbf08c691cfb190e15afd3ebaccb7512df60ab8acbdf20d78232d8867b43",
+      "bytes": 8910
+    },
+    {
+      "path": "source/FND/AgentsAndPeople/MetadataFNDAgentsAndPeople.rdf",
+      "sha256": "609753a27b9286d31c9e7165be88946db528e9ba3b0b3337f55c32734c9995f9",
+      "bytes": 3573
+    },
+    {
+      "path": "source/FND/AgentsAndPeople/People.rdf",
+      "sha256": "dd47a618da7e12aef0005088cba892d0cc642c7e52b9d73fb571b34aff00920e",
+      "bytes": 56638
+    },
+    {
+      "path": "source/FND/Agreements/Agreements.rdf",
+      "sha256": "8f03910f2638fd6d9d0d67f85d82fb908de9e276c54f8af6eed3526c62a9e851",
+      "bytes": 15669
+    },
+    {
+      "path": "source/FND/Agreements/Contracts.rdf",
+      "sha256": "d1177c7b092ae26228c5cc07f63172443e99e867b6ed8139389f7fccfb0bf65e",
+      "bytes": 73907
+    },
+    {
+      "path": "source/FND/Agreements/MetadataFNDAgreements.rdf",
+      "sha256": "c7db559e9808748e1498fa2b4d04d2e7ee019e1030be5f566fa683d2c9903753",
+      "bytes": 3905
+    },
+    {
+      "path": "source/FND/AllFND-NorthAmerica.rdf",
+      "sha256": "406566744b90c6901a73edbd1c8acb77e81250306d7c30655d787cec21aa2d23",
+      "bytes": 4772
+    },
+    {
+      "path": "source/FND/AllFND.rdf",
+      "sha256": "b0c2cd56d2bfef60351b4b4f568dc14b2a21606d14fd8114d76e97c268499f93",
+      "bytes": 16474
+    },
+    {
+      "path": "source/FND/Arrangements/Arrangements.rdf",
+      "sha256": "2b7ae23dcfcceee82c07275c03388d39067d40f006a74a4bc77382f458d98a49",
+      "bytes": 7830
+    },
+    {
+      "path": "source/FND/Arrangements/Assessments.rdf",
+      "sha256": "6586aa6d220aca95f048f412f351bd53f9526b5d875d2faac55e91590cbbc7f2",
+      "bytes": 25147
+    },
+    {
+      "path": "source/FND/Arrangements/ClassificationSchemes.rdf",
+      "sha256": "6965fd38d09b420286fa9d3ec493e6249ad6d3234e1be7bc6eaaa530b53e80e4",
+      "bytes": 7659
+    },
+    {
+      "path": "source/FND/Arrangements/Documents.rdf",
+      "sha256": "85c7e8ca07c62263c3817bf70f00ca3e1263ed20a6aba0fd3e99ab7d82c78968",
+      "bytes": 9932
+    },
+    {
+      "path": "source/FND/Arrangements/IdentifiersAndIndices.rdf",
+      "sha256": "ce50105aa7bac35a8ff2f424e325b5793ef9723ce8017ea272750d7577516c68",
+      "bytes": 12662
+    },
+    {
+      "path": "source/FND/Arrangements/Lifecycles.rdf",
+      "sha256": "8b81d1e6f9fa68a64a74564ae97f48f8f148a8b4da44d79959c5e957778140f9",
+      "bytes": 14476
+    },
+    {
+      "path": "source/FND/Arrangements/MetadataFNDArrangements.rdf",
+      "sha256": "482eba8abdb975adb925362864bdba3b592966d308c546ebfc82b9938f63a866",
+      "bytes": 4247
+    },
+    {
+      "path": "source/FND/Arrangements/Ratings.rdf",
+      "sha256": "212f37a5f23980942d59b2e537f93a7cbdfef9849aa92c3638b18ee0e11cee9d",
+      "bytes": 24338
+    },
+    {
+      "path": "source/FND/Arrangements/Reporting.rdf",
+      "sha256": "859fe8b85ab507cb4e9d6b9241ea226eb8dbd51e427ea04e132afdce98397e33",
+      "bytes": 17482
+    },
+    {
+      "path": "source/FND/DatesAndTimes/BusinessDates.rdf",
+      "sha256": "c959b708ac603b2b0ae7a6fc8c0a3003bf1c4139cab711e06fe9273e2ae76473",
+      "bytes": 19594
+    },
+    {
+      "path": "source/FND/DatesAndTimes/FinancialDates.rdf",
+      "sha256": "9a7ad36032eca33df0c49cd592b344abd5b8f3660a69a51f24899cebfcca0531",
+      "bytes": 45044
+    },
+    {
+      "path": "source/FND/DatesAndTimes/MetadataFNDDatesAndTimes.rdf",
+      "sha256": "248cb7f046fe9c57cc342f1e2131fe09da3a70f9e09699338946ecbadfd6deb6",
+      "bytes": 3927
+    },
+    {
+      "path": "source/FND/DatesAndTimes/Occurrences.rdf",
+      "sha256": "ed38b6a6df233ebb667f5e2f926d1eb437274fd7b73f0fb16853f69c834d9eb9",
+      "bytes": 21054
+    },
+    {
+      "path": "source/FND/GoalsAndObjectives/MetadataFNDGoalsAndObjectives.rdf",
+      "sha256": "47370e93fc0a2195210a42370de5408df8dc84a4d1005c0b09daf7fec7279472",
+      "bytes": 3641
+    },
+    {
+      "path": "source/FND/GoalsAndObjectives/Objectives.rdf",
+      "sha256": "a3f8f31c1b579047f55163fdf5ff0d14c58a840cff804bed4202acd09d6fb615",
+      "bytes": 30110
+    },
+    {
+      "path": "source/FND/Law/LegalCapacity.rdf",
+      "sha256": "78a290868169a7aed3e1c51202863eeda515df9e4efcd159c6bd70902774aac6",
+      "bytes": 42397
+    },
+    {
+      "path": "source/FND/Law/LegalCore.rdf",
+      "sha256": "8095fdeb20b85acf31923c9067cb431fd561669e4ed0681b95ae4d6b9a3b188e",
+      "bytes": 11520
+    },
+    {
+      "path": "source/FND/Law/MetadataFNDLaw.rdf",
+      "sha256": "9e795fb766c096f73567c62436f4ef5a7ebd3e080c42a34a8594aa7e18c598a8",
+      "bytes": 5893
+    },
+    {
+      "path": "source/FND/MetadataFND.rdf",
+      "sha256": "5781201e501821eee17c4604d6c563ac41f4ef83d8d3d531226ebef2270ebd69",
+      "bytes": 12828
+    },
+    {
+      "path": "source/FND/Organizations/FormalOrganizations.rdf",
+      "sha256": "096aa689714365c74308e35f71e0e1ccf8696e807fcee62885a568e6b018f961",
+      "bytes": 19012
+    },
+    {
+      "path": "source/FND/Organizations/MetadataFNDOrganizations.rdf",
+      "sha256": "d56437154a6c90071ae7ee455f864aaf252dafa8c17ede1a0bbde678a5305a96",
+      "bytes": 6080
+    },
+    {
+      "path": "source/FND/OwnershipAndControl/Control.rdf",
+      "sha256": "c96d1a23c9db41103a87c762a65ceca6704816db9136500cb87ced8f69d7b14e",
+      "bytes": 15925
+    },
+    {
+      "path": "source/FND/OwnershipAndControl/MetadataFNDOwnershipAndControl.rdf",
+      "sha256": "aba8e1b82984e4e211409ad4a6ad8a9f664af89641083f173bf9af3441c098b9",
+      "bytes": 3905
+    },
+    {
+      "path": "source/FND/OwnershipAndControl/Ownership.rdf",
+      "sha256": "de5f330c61e508bfe96f83a3bab8f0de76f306bfb7371424f5f20fc078338e79",
+      "bytes": 29922
+    },
+    {
+      "path": "source/FND/OwnershipAndControl/OwnershipAndControl.rdf",
+      "sha256": "85154189ed11e4ee44303c4b2b28a0ba855086e2e326d7c831689dbd9680abd5",
+      "bytes": 6995
+    },
+    {
+      "path": "source/FND/Parties/MetadataFNDParties.rdf",
+      "sha256": "e138f50e5c7ca2a29536a5f4201d74d339d6b3a0d6414504ba5fdfd2a20bc5eb",
+      "bytes": 3333
+    },
+    {
+      "path": "source/FND/Parties/Parties.rdf",
+      "sha256": "6ada5986f86ad91bb506e1cdbec6cff126855d3ac44a9bf019a1e1485c4b6927",
+      "bytes": 18545
+    },
+    {
+      "path": "source/FND/Places/Addresses.rdf",
+      "sha256": "b2a3b4b9f2f8bc8473e4b4714736b50ab94fff721a3d24d8fa0617a0fd4ebcb4",
+      "bytes": 57050
+    },
+    {
+      "path": "source/FND/Places/Facilities.rdf",
+      "sha256": "13acf962d2d9bbc5c790dd123fafdcdea6fb151779d29a2cad054267cce422ab",
+      "bytes": 9531
+    },
+    {
+      "path": "source/FND/Places/MetadataFNDPlaces.rdf",
+      "sha256": "bf96cfea680edf9ea662ece2ec6fcce31dd3f1bc858ee701fdcd4bfee40a9afe",
+      "bytes": 6014
+    },
+    {
+      "path": "source/FND/Places/NorthAmerica/USPostalServiceAddresses.rdf",
+      "sha256": "eb67059110af2aca7a96280dd1bd1719cca48bd89c765945e5344bc9ea9e0a07",
+      "bytes": 35698
+    },
+    {
+      "path": "source/FND/Places/NorthAmerica/USPostalServiceAddressesIndividuals.rdf",
+      "sha256": "8dba748efb934469c461d9484738297bed0b1888587dbef3d30ac4feea077492",
+      "bytes": 165966
+    },
+    {
+      "path": "source/FND/Places/RealProperty.rdf",
+      "sha256": "ca19736b2ce96a4bfbe3de6d540e0d1816b484941dc0f0ddecf44037b217446a",
+      "bytes": 16425
+    },
+    {
+      "path": "source/FND/Places/VirtualPlaces.rdf",
+      "sha256": "438392ab8ef9dce6a82f22719521b06cd6aaa6c8e0e4266cf15f5e4f6428a79c",
+      "bytes": 10284
+    },
+    {
+      "path": "source/FND/ProductsAndServices/MetadataFNDProductsAndServices.rdf",
+      "sha256": "72f9b5d60840bcadea3f07122b3249a63163eb23de7de21b3832e6031aba5bce",
+      "bytes": 3724
+    },
+    {
+      "path": "source/FND/ProductsAndServices/PaymentsAndSchedules.rdf",
+      "sha256": "7f9f6645a2e8e5387cd0d4dd9f5ba28c053283acb47bd37595851d7919d75dc0",
+      "bytes": 15908
+    },
+    {
+      "path": "source/FND/ProductsAndServices/ProductsAndServices.rdf",
+      "sha256": "936ef96bed298618994869b56f05e8bcc3390d25d9e03d9aeaa5e7bb01550834",
+      "bytes": 35295
+    },
+    {
+      "path": "source/FND/README.md",
+      "sha256": "ab60f48ff2934f37c7f4d2e888b9a2a67812dd9139b9066ee05bdb0439b7b734",
+      "bytes": 751
+    },
+    {
+      "path": "source/FND/Relations/MetadataFNDRelations.rdf",
+      "sha256": "d37882e758cdb30e66eecbd506d24a77ff9985ae2b6ab6aa2069a81488f2cb4f",
+      "bytes": 3533
+    },
+    {
+      "path": "source/FND/Relations/Relations.rdf",
+      "sha256": "53e66c732bb0a593a0a976df08b2d80e3ac0e12c197aed58671c660f8cc427c5",
+      "bytes": 23946
+    },
+    {
+      "path": "source/FND/TransactionsExt/MarketTransactions.rdf",
+      "sha256": "dc808d57082b71a654902f9c9f52464df7b9865907492ac649bddec73e072539",
+      "bytes": 8308
+    },
+    {
+      "path": "source/FND/TransactionsExt/MetadataFNDTransactionsExt.rdf",
+      "sha256": "0a378893e904de9b25f1fce18bc34b643c55b0fb742dd47b1dff5fed3bcf67d9",
+      "bytes": 4137
+    },
+    {
+      "path": "source/FND/TransactionsExt/REATransactions.rdf",
+      "sha256": "4fd9b33a12f68e3432bce68833b1af1c34009fe94fbb3ae1ef2232cac5ddbb28",
+      "bytes": 34265
+    },
+    {
+      "path": "source/FND/TransactionsExt/SecuritiesTransactions.rdf",
+      "sha256": "621657abe09ced6d3215b1f634a6d6a1297108445cc95431ad145dead6a9b2c4",
+      "bytes": 11427
+    },
+    {
+      "path": "source/FND/Utilities/Analytics.rdf",
+      "sha256": "6d06b28f25094ffb0a2286beb4da2352f6d1c5327a7654fa5a13abe101994c06",
+      "bytes": 52098
+    },
+    {
+      "path": "source/FND/Utilities/AnnotationVocabulary.rdf",
+      "sha256": "fe863cf8a5bf58a3cff8a59d8555b00acf22a02096998c3189e0ec9f912c6e71",
+      "bytes": 10870
+    },
+    {
+      "path": "source/FND/Utilities/MetadataFNDUtilities.rdf",
+      "sha256": "98e493d964ab21aa91c0b3f318fa3f55b777660068ebfdac4747e19004d99a42",
+      "bytes": 3461
+    },
+    {
+      "path": "source/IND/AllIND-NorthAmerica.rdf",
+      "sha256": "4fce3f60de4d4028ce6311b0496c54624b381823eb28ebc176d1237f55a8c50c",
+      "bytes": 5715
+    },
+    {
+      "path": "source/IND/AllIND-ReferenceRates.rdf",
+      "sha256": "e84f94bc0b9bbdff10089b6e83005cce6d166e1a85e9cc0f33d5f47b07a30b74",
+      "bytes": 5473
+    },
+    {
+      "path": "source/IND/AllIND.rdf",
+      "sha256": "4750a58a00078fb7101546d92240f98f247eec9ffda6a4f42c9471c0e17d25fe",
+      "bytes": 6560
+    },
+    {
+      "path": "source/IND/EconomicIndicators/EconomicIndicators.rdf",
+      "sha256": "2fb7bf7e39e60ab1a172ea3f3772ff1c2e534d1d316cc5b5dcfee46659f7f70f",
+      "bytes": 86428
+    },
+    {
+      "path": "source/IND/EconomicIndicators/MetadataINDEconomicIndicators.rdf",
+      "sha256": "ee927d336db23edc720abb5093facc8357b5046f07202b847a411763b77c5b9f",
+      "bytes": 5899
+    },
+    {
+      "path": "source/IND/EconomicIndicators/NorthAmericanIndicators/CAEconomicIndicators.rdf",
+      "sha256": "6117f0f6e167c3c9b4f12d5330ab722a33886c50c6f66499000f87b8b4763843",
+      "bytes": 18338
+    },
+    {
+      "path": "source/IND/EconomicIndicators/NorthAmericanIndicators/USEconomicIndicators.rdf",
+      "sha256": "26cc3408c7fed5e96fd058a6523feef0a2d635e602b3c4737e9c6a1ff49da682",
+      "bytes": 23894
+    },
+    {
+      "path": "source/IND/ForeignExchange/ForeignExchange.rdf",
+      "sha256": "951abe905fae8bf8f78b8884827c6fd56eed715fcc5df70616fc5d640eb3db98",
+      "bytes": 20505
+    },
+    {
+      "path": "source/IND/ForeignExchange/MetadataINDForeignExchange.rdf",
+      "sha256": "93e4f8966c922b3d06bba0879ae3cdaaece039e24255b8d57d2e1c21aeca5643",
+      "bytes": 4900
+    },
+    {
+      "path": "source/IND/Indicators/Indicators.rdf",
+      "sha256": "0587b1763d4c888000c8a6751b55c80a7102899a57e065c64040fa324a4e43ea",
+      "bytes": 22857
+    },
+    {
+      "path": "source/IND/Indicators/MetadataINDIndicators.rdf",
+      "sha256": "91e9840ccfea3f5be40ff39233e152db4c341590af033407da23681e66b95d5b",
+      "bytes": 4908
+    },
+    {
+      "path": "source/IND/InterestRates/CommonInterestRates.rdf",
+      "sha256": "87264ce5599586508ad6c42bd57552fb15508df4bfcf5421834a77c07c53d18b",
+      "bytes": 364907
+    },
+    {
+      "path": "source/IND/InterestRates/InterestRates.rdf",
+      "sha256": "bed6cec773d5817304ae9326140e2a4a88d52eb268fecb92039f856be8e5f8f9",
+      "bytes": 30930
+    },
+    {
+      "path": "source/IND/InterestRates/MarketDataProviders.rdf",
+      "sha256": "a27ce8f36c9114caa6cd0fa1c0ed1badab2b68cefbcee8069693256ed675482c",
+      "bytes": 21790
+    },
+    {
+      "path": "source/IND/InterestRates/MetadataINDInterestRates.rdf",
+      "sha256": "b019d3241aac46f9c25aa97c02a1c7298fcb00adde5ffaee89d0ff962d7484df",
+      "bytes": 5464
+    },
+    {
+      "path": "source/IND/MarketIndices/BasketIndices.rdf",
+      "sha256": "c673ca8c9aa09bceb571402582fa85af12036a8cbaddf3c27dbc722239854916",
+      "bytes": 25785
+    },
+    {
+      "path": "source/IND/MarketIndices/MetadataINDMarketIndices.rdf",
+      "sha256": "39fe15062cb7d4f2e44e4348830d2474a33661a9bf205800ba7bd8100f62bf20",
+      "bytes": 7565
+    },
+    {
+      "path": "source/IND/MetadataIND.rdf",
+      "sha256": "609869587c559e501d93fdfef8ca1cd8acc62df5856e6da6bfd84ebe7e1edb6e",
+      "bytes": 9947
+    },
+    {
+      "path": "source/IND/README.md",
+      "sha256": "bff35f3bcbb982498c8b35e3440fdff777cf3c6bdb5c64a6f15b73b037c22c40",
+      "bytes": 793
+    },
+    {
+      "path": "source/LICENSE",
+      "sha256": "59f852c87fa59411aa7dc527bd5629074d2caced7de4a48bbe7c5763359d8559",
+      "bytes": 1121
+    },
+    {
+      "path": "source/LOAN/AllLOAN.rdf",
+      "sha256": "6cab267b6551718efc4ccc1a4024ad0cda580ac78bdfd094caa9f174c699e12d",
+      "bytes": 8518
+    },
+    {
+      "path": "source/LOAN/LoansGeneral/LoanApplications.rdf",
+      "sha256": "ad7df5c986fa0bf6d1e108aff41f9772e18303b6300d97e3e0d5e7f6de038f67",
+      "bytes": 35880
+    },
+    {
+      "path": "source/LOAN/LoansGeneral/LoanEvents.rdf",
+      "sha256": "1ce1f1bf66edc321d141de34065e53f01f21d933b1c84335ba82cbf180ab2725",
+      "bytes": 15623
+    },
+    {
+      "path": "source/LOAN/LoansGeneral/Loans.rdf",
+      "sha256": "87024035dac38303e21738879202d87f0f37c1347a16119f9ec2b4e37e124f05",
+      "bytes": 45350
+    },
+    {
+      "path": "source/LOAN/LoansGeneral/LoansRegulatory.rdf",
+      "sha256": "2ac7db4283eb42d68cfa4acad8e0d41db324a1635789d771bb37b4ba3f7f9d35",
+      "bytes": 23865
+    },
+    {
+      "path": "source/LOAN/LoansGeneral/MetadataLOANLoansGeneral.rdf",
+      "sha256": "8c8d57295e4565b86a4de0818da5dfd49332af2f601dd7f22da896c07bc4e399",
+      "bytes": 4341
+    },
+    {
+      "path": "source/LOAN/LoansSpecific/CardAccounts.rdf",
+      "sha256": "7e6a021797af88e8a9e0b1c967bf874f7c43d9d67a24009a1dbee61afceaca74",
+      "bytes": 44645
+    },
+    {
+      "path": "source/LOAN/LoansSpecific/CommercialLoans.rdf",
+      "sha256": "f1368c816d6ba3e7a5b4d6e94fd76bd66df314ebe741adb7eecfc5ebbc0bcb52",
+      "bytes": 7693
+    },
+    {
+      "path": "source/LOAN/LoansSpecific/ConsumerLoans.rdf",
+      "sha256": "ed1bc2753636b9797e2b329147b236d69f20e0e7aa34cae2db7716a8892a9460",
+      "bytes": 12727
+    },
+    {
+      "path": "source/LOAN/LoansSpecific/GreenLoans.rdf",
+      "sha256": "510fa81ba4e12ce737e8b81c9bc43b61cf33cda44d0cbc7fac588bfd3e6e254a",
+      "bytes": 48894
+    },
+    {
+      "path": "source/LOAN/LoansSpecific/LoanProducts.rdf",
+      "sha256": "53a0b6df1545ae482cd770f591b794ad95885b2ccc5d40b6bfbd686252dccf1e",
+      "bytes": 18828
+    },
+    {
+      "path": "source/LOAN/LoansSpecific/MarineFinance.rdf",
+      "sha256": "f95a470fc34641bfbb2831094042a03321f2b60a5791dd6985ed5ef3702346cc",
+      "bytes": 4833
+    },
+    {
+      "path": "source/LOAN/LoansSpecific/MetadataLOANLoansSpecific.rdf",
+      "sha256": "29de4377a9a4804dcfe427f0c5d26990859f31ae045db9a8a37b12918002d9af",
+      "bytes": 4876
+    },
+    {
+      "path": "source/LOAN/LoansSpecific/StudentLoans.rdf",
+      "sha256": "2e988d8c097169157129178fe629acf566582bdb86b1cca02980abc08f3ae38d",
+      "bytes": 7543
+    },
+    {
+      "path": "source/LOAN/MetadataLOAN.rdf",
+      "sha256": "e14e8030a7bcdae00362ea9ab66fc96da34b750f2b0cd5b812e9cf77a89aa6c8",
+      "bytes": 8365
+    },
+    {
+      "path": "source/LOAN/README.md",
+      "sha256": "1820c6f6f437248ffad2639be9a9534999de324bb626426a371a15167e214ab9",
+      "bytes": 893
+    },
+    {
+      "path": "source/LOAN/RealEstateLoans/ConstructionLoans.rdf",
+      "sha256": "e74051751d6b3f53d4fd200ba735b2c08d6b191d03c406246cce97093df2ec4f",
+      "bytes": 8813
+    },
+    {
+      "path": "source/LOAN/RealEstateLoans/HomeMortgageDisclosureActCoveredMortgages.rdf",
+      "sha256": "ebf2e21857e3e4fca2d3b11b26057a45c1e54caf6486864c0296d3007214e15a",
+      "bytes": 18447
+    },
+    {
+      "path": "source/LOAN/RealEstateLoans/MetadataLOANRealEstateLoans.rdf",
+      "sha256": "48bebe6ec2f5af6c08c4fa7394cc9c6d0a97fa39132f7e0839a931aaf63fc444",
+      "bytes": 4614
+    },
+    {
+      "path": "source/LOAN/RealEstateLoans/MortgageOrigination.rdf",
+      "sha256": "dda3d7a2dc8fdcee8b5b0825f90373336231f5a6557977bb1457bde3a5d1eb2e",
+      "bytes": 37265
+    },
+    {
+      "path": "source/LOAN/RealEstateLoans/Mortgages.rdf",
+      "sha256": "4d40e80c9add98aee948d11fd06f84f26f5bea2f228619b05adea1073bfa9634",
+      "bytes": 15274
+    },
+    {
+      "path": "source/MD/CIVTemporal/FundsTemporal.rdf",
+      "sha256": "450ceb0b7fb330ffb1353db20920301be4f37539bc4b590bfc1cb8d260c174c1",
+      "bytes": 13214
+    },
+    {
+      "path": "source/MD/CIVTemporal/MetadataMDCIVTemporal.rdf",
+      "sha256": "54b76643b972be49e5a03ae885f51540d43bbb87441f2b4c3a8313830f9b77f0",
+      "bytes": 3276
+    },
+    {
+      "path": "source/MD/DebtTemporal/DebtAnalytics.rdf",
+      "sha256": "23741415a51c9f8dcb02ba831ae5bb2dbd179f3e8656927472bc143ce29e5324",
+      "bytes": 65632
+    },
+    {
+      "path": "source/MD/DebtTemporal/MetadataMDDebtTemporal.rdf",
+      "sha256": "66bf01a7fcb4727115973c0a4eb898e164bd48554d8eac8df607695a5f98a358",
+      "bytes": 3222
+    },
+    {
+      "path": "source/MD/DerivativesTemporal/ETOptionsTemporal.rdf",
+      "sha256": "627cb05156e9e7f805ddf1cfe40e5579c3f7ac9fbbf060357ea9363c23408bde",
+      "bytes": 10162
+    },
+    {
+      "path": "source/MD/DerivativesTemporal/FuturesTemporal.rdf",
+      "sha256": "bdce7a31496a5d5143802aacede218d5b63724bc67d7e60dafd92734c4a9d8c8",
+      "bytes": 8025
+    },
+    {
+      "path": "source/MD/DerivativesTemporal/MetadataMDDerivativesTemporal.rdf",
+      "sha256": "c9d927fbf00e6141f56191a25799463c5b27e7350001e096ee6e3b6906d0121a",
+      "bytes": 3522
+    },
+    {
+      "path": "source/MD/MetadataMD.rdf",
+      "sha256": "565d3ddf24bfc0852f6177f29003258bc7ae2649e859edef04c0bdfc99718eed",
+      "bytes": 7657
+    },
+    {
+      "path": "source/MD/README.md",
+      "sha256": "6fad2bf401b5c40ae1d3d700af223a89e1e8de6d0a3556cfc48f48ba7b2b52bf",
+      "bytes": 800
+    },
+    {
+      "path": "source/MD/TemporalCore/MetadataMDTemporalCore.rdf",
+      "sha256": "9e029c1725e2f85468e2e8da44fe7204d6fd2b0a9a40ba703f8db6d3aceebec2",
+      "bytes": 3376
+    },
+    {
+      "path": "source/MD/TemporalCore/SecurityCreditStatuses.rdf",
+      "sha256": "1dfcc510ddafc66b190823cad8af6d3f753c9db5888091b0bf90817f8be61600",
+      "bytes": 7447
+    },
+    {
+      "path": "source/MD/TemporalCore/SecurityTradingStatuses.rdf",
+      "sha256": "327b5d840ec23fbae8027b3a470238ceba4b460232510e9e3306718ddcaa6855",
+      "bytes": 9190
+    },
+    {
+      "path": "source/MetadataFIBO.rdf",
+      "sha256": "e6037bae42583e69fac7fcefa756fb3fb8e2214899481e28f10abab3ebcab10a",
+      "bytes": 10219
+    },
+    {
+      "path": "source/ONTOLOGY_GUIDE.md",
+      "sha256": "15b3bce1983f05e37ce0b25f1a48a715bf952e5318e3a3ba50fd679c9b68c499",
+      "bytes": 41127
+    },
+    {
+      "path": "source/README.md",
+      "sha256": "144bdaaa99df8d87a1a1368709162f324593de1c2856163ec1da399322888ef5",
+      "bytes": 12075
+    },
+    {
+      "path": "source/SEC/AllSEC-Europe.rdf",
+      "sha256": "2e1ac6354c728d780421b6bc47909e5f9839e237e2ac59003cf46606a720c4bc",
+      "bytes": 5222
+    },
+    {
+      "path": "source/SEC/AllSEC-NorthAmerica.rdf",
+      "sha256": "f39e4ce450c57e9c864dad9d76ccda033665f4e3666c9a7ba2a94fac61a3a7a9",
+      "bytes": 5285
+    },
+    {
+      "path": "source/SEC/AllSEC-ReferenceIndividuals.rdf",
+      "sha256": "bce00918b66a0f7d012ba021a475e20e70eb0bcbb94ca441add451e1cadcb59e",
+      "bytes": 5558
+    },
+    {
+      "path": "source/SEC/AllSEC.rdf",
+      "sha256": "0718b25932b5392f68c5b080ac2364f6dd3f6957c5a5b35c03be0a4d1e6b07cb",
+      "bytes": 11200
+    },
+    {
+      "path": "source/SEC/Debt/AssetBackedSecurities.rdf",
+      "sha256": "646ea7b5e905fae21885661a5dbec54a06096395302b1d510f4788a81040e154",
+      "bytes": 23667
+    },
+    {
+      "path": "source/SEC/Debt/Bonds.rdf",
+      "sha256": "2d7bda00967be3952bd2190a63d30b24674928be4a357d6b1a816c8c461ebc80",
+      "bytes": 105855
+    },
+    {
+      "path": "source/SEC/Debt/CollateralizedDebtObligations.rdf",
+      "sha256": "f964cce3b9fcc3a403dddc116c48dace04819573bb92c82be10e5746358af3ad",
+      "bytes": 81531
+    },
+    {
+      "path": "source/SEC/Debt/DebtInstruments.rdf",
+      "sha256": "3ab697507ea6674ca65f700fed7f79bdff9ee3f787e6884623ebe92e920e0ec1",
+      "bytes": 51175
+    },
+    {
+      "path": "source/SEC/Debt/DistributedLoans.rdf",
+      "sha256": "c82a391775f4db7577c501a0f2f9bd18999ef4144b5948035ab575e716401662",
+      "bytes": 15757
+    },
+    {
+      "path": "source/SEC/Debt/ExerciseConventions.rdf",
+      "sha256": "0395ee04f86926124c2cd57c375e7a7b90cf9a5818aada6c44b2ba5b71876bcb",
+      "bytes": 14968
+    },
+    {
+      "path": "source/SEC/Debt/MetadataSECDebt.rdf",
+      "sha256": "664bc5b9ea461067d735580bd88a53fe9a69ee11ca39dfe51a0247bc3824cebd",
+      "bytes": 5816
+    },
+    {
+      "path": "source/SEC/Debt/MortgageBackedSecurities.rdf",
+      "sha256": "49d16ce2c78c6b61d49ce66252cd0743ce3ecf56ffb5b9b0114719d3800e3b8a",
+      "bytes": 33593
+    },
+    {
+      "path": "source/SEC/Debt/PoolBackedSecurities.rdf",
+      "sha256": "1264ab83271e1377d9be0a21869c97a17c4f18498fc66ac8d02e469995de2f15",
+      "bytes": 41128
+    },
+    {
+      "path": "source/SEC/Debt/SyntheticCDOs.rdf",
+      "sha256": "579dbbf48088907df055a231cb0bbfb53b4678be5963dfed16df9f681fc77ea2",
+      "bytes": 21826
+    },
+    {
+      "path": "source/SEC/Debt/TradedShortTermDebt.rdf",
+      "sha256": "536cdb1749a6106fa5ab43931ece780654aef9407ed5618be4cf359effaee2af",
+      "bytes": 19662
+    },
+    {
+      "path": "source/SEC/Equities/DepositaryReceipts.rdf",
+      "sha256": "67e0627f311f852854fcc1d976bbd028d476a766d6f68270b6b7967e00412286",
+      "bytes": 33605
+    },
+    {
+      "path": "source/SEC/Equities/EquityCFIClassificationIndividuals.rdf",
+      "sha256": "e9625ba5c9e9f5f1c2578dbace678827c98dbb573888af25b054f784e71be56e",
+      "bytes": 275567
+    },
+    {
+      "path": "source/SEC/Equities/EquityInstruments.rdf",
+      "sha256": "57552a710950a2d0afef166aeb432f619e2473a6784b6901474ddcee2de1684d",
+      "bytes": 85487
+    },
+    {
+      "path": "source/SEC/Equities/MetadataSECEquities.rdf",
+      "sha256": "732000ab90a81e5647a6b5a9c867e866df013a00d65959097062551a96dfef0f",
+      "bytes": 7421
+    },
+    {
+      "path": "source/SEC/Funds/CollectiveInvestmentVehicles.rdf",
+      "sha256": "260f00ee9d48ab7b2963970ea9095cf45b017e75c6c9686a3084f8aaf3c53992",
+      "bytes": 115070
+    },
+    {
+      "path": "source/SEC/Funds/Funds.rdf",
+      "sha256": "dcbf1a622b98ddcc180feec339de998dc61d3a878c2252faefd4d2d595133c32",
+      "bytes": 44404
+    },
+    {
+      "path": "source/SEC/Funds/MetadataSECFunds.rdf",
+      "sha256": "b6e9c72d184e1acab0e3fbba2a4e171c580459a6837fb38eea5b13bddcf0573b",
+      "bytes": 4742
+    },
+    {
+      "path": "source/SEC/MetadataSEC.rdf",
+      "sha256": "f16ea82b4ea8c8a314699eb995b986d4539b4ef4e2c5984ed4952c849b8a2c2f",
+      "bytes": 9261
+    },
+    {
+      "path": "source/SEC/README.md",
+      "sha256": "44fbc278c3655654151d42a2b8edaf0be56fab80670fb3472a37245b534bc1f8",
+      "bytes": 841
+    },
+    {
+      "path": "source/SEC/Securities/Baskets.rdf",
+      "sha256": "08ebe45c24170e9f5ee619e51ab6b0f95d5ac46a87e21c9f0eccc1392bbc1b36",
+      "bytes": 11713
+    },
+    {
+      "path": "source/SEC/Securities/EuropeanSecurities/EUSecuritiesRestrictions.rdf",
+      "sha256": "d871be3eb9a05609f1af0955d82beec26f26e8089e529d051eb5d4878945f09b",
+      "bytes": 17750
+    },
+    {
+      "path": "source/SEC/Securities/MetadataSECSecurities.rdf",
+      "sha256": "0c24a1737b44ba8275183c03d0ab2c8089bf63d30bb703024efe0009ab14c334",
+      "bytes": 6019
+    },
+    {
+      "path": "source/SEC/Securities/NorthAmericanSecurities/USSecuritiesRestrictions.rdf",
+      "sha256": "58146a04f2f19b4bff1167aea348302f6db4d45cb67367084a6070a21cb2b3be",
+      "bytes": 23249
+    },
+    {
+      "path": "source/SEC/Securities/ParametricSchedules.rdf",
+      "sha256": "530e0820fa333ae5cdd3d68e21d6e2593bd3642db041843cac34d6195e05286f",
+      "bytes": 20821
+    },
+    {
+      "path": "source/SEC/Securities/Pools.rdf",
+      "sha256": "eb1da4d5fa8156eb2be4aecc170b0985e9b89a6b481b1c55731f74931c84a0b4",
+      "bytes": 17993
+    },
+    {
+      "path": "source/SEC/Securities/SecuritiesClassification.rdf",
+      "sha256": "af778d9bb01217ae2336ab1832ae81c7e0158d8ec5bed45cf3677e2e18b7ebbe",
+      "bytes": 17691
+    },
+    {
+      "path": "source/SEC/Securities/SecuritiesIdentification.rdf",
+      "sha256": "faff45ecaa12fed12cf6a4ae6ca40fa912c987d101084ffe0ea8b168d435b573",
+      "bytes": 28030
+    },
+    {
+      "path": "source/SEC/Securities/SecuritiesIdentificationIndividuals.rdf",
+      "sha256": "2c7605091362c55d496db7ffeabf6b4b7a7e3599e910e477f8da2aad275a4380",
+      "bytes": 45080
+    },
+    {
+      "path": "source/SEC/Securities/SecuritiesIssuance.rdf",
+      "sha256": "4539061ed96883346d73d0d884beca6d9cfae7904f55fc6009f8d2c1dd57aa91",
+      "bytes": 48304
+    },
+    {
+      "path": "source/SEC/Securities/SecuritiesListings.rdf",
+      "sha256": "be2c77cb53ffbf2451b72c395587f08ca83f7f000f959b8c60b821421653a700",
+      "bytes": 23335
+    },
+    {
+      "path": "source/SEC/Securities/SecuritiesRestrictions.rdf",
+      "sha256": "c3809f6619beb30ea8c263a03891152ddf90557343365d4d1c869a7f4b8aa0d9",
+      "bytes": 18769
+    },
+    {
+      "path": "source/SEC/Securities/SecurityAssets.rdf",
+      "sha256": "1f176c681f11b3210d8289c74194162c24b70fc4c0882def08f52be6e6917150",
+      "bytes": 6864
+    },
+    {
+      "path": "source/catalog-v001.xml",
+      "sha256": "01b6176ad4ff75386980335f302d3d3ffc081c9d1ed795e154a2cf11f9c5bf08",
+      "bytes": 54756
+    },
+    {
+      "path": "source/etc/README.md",
+      "sha256": "30fd6f6c765eeec3ae90a40048a0b6efb6f40dc3281fbdf681fc3dbd2b45faf8",
+      "bytes": 509
+    },
+    {
+      "path": "source/etc/dev_toolkit/build-about.sh",
+      "sha256": "411a30d43793e00b9e4886df2c385c50ea2df51b0e28a099fade0f7f74640202",
+      "bytes": 2478
+    },
+    {
+      "path": "source/etc/dev_toolkit/build-cats.sh",
+      "sha256": "60a3a8fd7f79b5da7fa4928f63c95895a44b0ab51249e49edcb02f14e4db3649",
+      "bytes": 1436
+    },
+    {
+      "path": "source/etc/dev_toolkit/createAbout.sh",
+      "sha256": "93926bfbdcaaf86311ad7849cc1b8ca068b24ec3ce220c0f928dc9881903ac19",
+      "bytes": 175
+    },
+    {
+      "path": "source/etc/dev_toolkit/createCatalog.sh",
+      "sha256": "48efec3475b35a6ab720390a16a100fb4b8d35d3ff4a1c17b5f54e6f98809107",
+      "bytes": 57
+    },
+    {
+      "path": "source/etc/dev_toolkit/fixle.sh",
+      "sha256": "476997e3b9da54d0a03ddf9a541468181705f5808f373746e5067adbaecb2a72",
+      "bytes": 19
+    },
+    {
+      "path": "source/etc/image/FIBO Collaboration Capabilities.png",
+      "sha256": "7fbb9b4e55fcd68fb72a83f9f6a35653f3041b277f02d400890030aafd8348df",
+      "bytes": 74094
+    },
+    {
+      "path": "source/etc/image/GitHub Systems View.png",
+      "sha256": "b4cd098b9cd5dca1fb12cbc2faa726cddc9d6a4ae89bc7ef3e7205a79d6085ad",
+      "bytes": 59014
+    },
+    {
+      "path": "source/etc/onto-viewer-web-app/config/application_config.yaml",
+      "sha256": "8a1d29e640bdac7d3265c25226c73110876c4baf6089b4dc72c8003bebd9a096",
+      "bytes": 285
+    },
+    {
+      "path": "source/etc/onto-viewer-web-app/config/groups_config.yaml",
+      "sha256": "bdee844acc59cd33fe6d22942e9222327a11a42becd9fddd40b034559cebc78e",
+      "bytes": 5174
+    },
+    {
+      "path": "source/etc/onto-viewer-web-app/config/integration_config.yaml",
+      "sha256": "551caf4dba2e39a106755c832d610e91d384dd91c969d0c897d8188d30324ee0",
+      "bytes": 119
+    },
+    {
+      "path": "source/etc/onto-viewer-web-app/config/label_config.yaml",
+      "sha256": "a303dc55d85187ae7a1db2255941829f0a564ae1081e8e3a27d31dc53b014afb",
+      "bytes": 3969
+    },
+    {
+      "path": "source/etc/onto-viewer-web-app/config/ontology_config.yaml",
+      "sha256": "604f4a5bb42e1d76d9bb5a8c4f4be86990440a81def2a9100d368c4f81244c20",
+      "bytes": 967
+    },
+    {
+      "path": "source/etc/onto-viewer-web-app/config/search_config.yaml",
+      "sha256": "282b5f9f1374903443de47ad6c96ecf8cbf062a328920be3bc58dc63e3b8f968",
+      "bytes": 2224
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/BE/Corporations/Corporations/Corporations.mdzip",
+      "sha256": "be2080616033c4f63ef7da132bc9a9b534425b12f85428d789ee48ac329e9427",
+      "bytes": 808708
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/BE/DirectRelations/DirectRelations/DirectRelations.mdzip",
+      "sha256": "aa057ff51a7b7b034aa100c767d1333e23613164bcd59e7a4a41fe3c4593e8c9",
+      "bytes": 414288
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/BE/FunctionalEntities/FunctionalEntities/FunctionalEntities.mdzip",
+      "sha256": "2360dc9f1d8a16d3e537e8708cfab29d560035ba4a7ecb3cfb01b25aa04227a6",
+      "bytes": 782411
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/BE/FunctionalEntities/Publishers/Publishers.mdzip",
+      "sha256": "a5fe6fde25599b1f7a863f80863f4e1e6476fd271b7a7a61077e43d8ea1772a9",
+      "bytes": 583321
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/BE/LegalEntities/CorporateBodies/CorporateBodies.mdzip",
+      "sha256": "6f4a12a949d273b1b3b190e95dc8a00d8f257e49f2ec9e25c6709df5bd614126",
+      "bytes": 718208
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/BE/LegalEntities/FormalBusinessOrganizations/FormalBusinessOrganizations.mdzip",
+      "sha256": "1f9e01ae514333ad214d8de7f60fbfb0eef471ce347a1e5c9a8ae93006f5e32c",
+      "bytes": 657693
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/BE/LegalEntities/LEIEntities/LEIEntities.mdzip",
+      "sha256": "c356b6ed071ade8ae572843175f855357971d1de26f41e935fd1674adcc383f9",
+      "bytes": 537942
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/BE/LegalEntities/LegalPersons/LegalPersons.mdzip",
+      "sha256": "41ccf94c46d11f1906931dc8f92dabd9b53357b54d0b1991a6d4fccaee9040d5",
+      "bytes": 749207
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/BE/OwnershipAndControl/ControlParties/ControlParties.mdzip",
+      "sha256": "2015e8ff89d7712862030acd3957b7d52c02ae3fb65c8ad10f1172a2d6669724",
+      "bytes": 1070543
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/BE/OwnershipAndControl/CorporateControl/CorporateControl.mdzip",
+      "sha256": "8e9c4a9a3beddea6d169a71610c7a3520d641bcdcd673bd277636142df37c3f3",
+      "bytes": 858636
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/BE/OwnershipAndControl/CorporateOwnership/CorporateOwnership.mdzip",
+      "sha256": "10ff498b825fc05cefad0d9e03259d61ddd348b98ac04b30af3dc1cb1c11506d",
+      "bytes": 682773
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/BE/OwnershipAndControl/Executives/Executives.mdzip",
+      "sha256": "f865736528d0f381abc449f8de64f271fff4d9c5fdd82409f3e7c56a895f88ae",
+      "bytes": 688620
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/BE/OwnershipAndControl/OwnershipParties/OwnershipParties.mdzip",
+      "sha256": "9913434e9c4ca71553c6c4737381df4a72da1b3bab23ae45b3dab5edaad40709",
+      "bytes": 616527
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/BE/Partnerships/JurisdictionSpecificPartnerships/JurisdictionSpecificPartnerships.mdzip",
+      "sha256": "d001acf19586b43c73c089d87ea918d9fe1c4ad9e9d14f534efc217fb2c27957",
+      "bytes": 641266
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/BE/Partnerships/Partnerships/Partnerships.mdzip",
+      "sha256": "4d79a7ad723905b1e03f3613e2458b7c1cc9b07c27478f3fa0778fa84c90534f",
+      "bytes": 855137
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/BE/Trusts/Trusts/Trusts.mdzip",
+      "sha256": "294a3732727f157b0f652cda1a1f480b04e3f0803ac03cb38e60e181d37cc7dc",
+      "bytes": 699677
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Accounting/AccountingEquity/AccountingEquity.mdzip",
+      "sha256": "1d3029e5b5c2f037433abcb620714c07bf745048951f10ac15af5fad9a39db0a",
+      "bytes": 435998
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Accounting/CurrencyAmount/CurrencyAmount.mdzip",
+      "sha256": "520ab7dc8481c914a60b9f73704c767a333281ef75262126020b04487c5a41ee",
+      "bytes": 367096
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/AgentsAndPeople/Agents/Agents.mdzip",
+      "sha256": "16b2bd2d30df62aecaf292cd9d6fbdc23ea47f720d0eeca73a530528376c7fd3",
+      "bytes": 372138
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/AgentsAndPeople/People/People.mdzip",
+      "sha256": "6c9402d5b724084c14c0a472a4f06034882e0fcfc4c5e05d662a2a6cc9b2bc73",
+      "bytes": 582931
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Agreements/Agreements/Agreements.mdzip",
+      "sha256": "ef5c9b03af63a1aca0cb7d8e4e234db0cd0b4666ba64a61411177c3e872e2f82",
+      "bytes": 447980
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Agreements/Contracts/Contracts.mdzip",
+      "sha256": "331fc7ce21a28fcc2e951218fa5c8042aab29e1f224e4027d222d5a74f0e48c5",
+      "bytes": 643952
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Arrangements/Arrangements/Arrangements.mdzip",
+      "sha256": "91f2687ae10951526c2696ad59d7631de29f23f141167ec66ae88e263ee6f24a",
+      "bytes": 348385
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Arrangements/IdentifiersAndIndices/IdentifiersAndIndices.mdzip",
+      "sha256": "658cac35f4da800786e5011e20d039d1c18fdf9d044b51ad05bdbd79a4da8f7a",
+      "bytes": 454439
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/GoalsAndObjectives/Goals/Goals.mdzip",
+      "sha256": "2e31e9396647211b28f200435d2e6957a1c302f11440826f7fa3f21df941062e",
+      "bytes": 346489
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/GoalsAndObjectives/Objectives/Objectives.mdzip",
+      "sha256": "cb352bc29a6b92a5ac212e71edc5be2c4b3e3e870762b54e03bd10416769e3f9",
+      "bytes": 390403
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Law/Jurisdiction/Jurisdiction.mdzip",
+      "sha256": "88ae16ff2b53aa147ba7855340b20d7422f9e240053c844fb786a8418b347a57",
+      "bytes": 498662
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Law/LegalCapacity/LegalCapacity.mdzip",
+      "sha256": "2ee810942dc644771dac56689052490791cea6bf92d5320509dc0dd48f3fa99e",
+      "bytes": 408523
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Law/LegalCore/LegalCore.mdzip",
+      "sha256": "9312ce166cabbc6d042f3829d65afc9c01d35a44714e5a8ce060f1e5580b3061",
+      "bytes": 400198
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Organizations/FormalOrganizations/FormalOrganizations.mdzip",
+      "sha256": "d22515a2541ac75ef1a7484eedbecce48c9251a4f35bbda636a58bd789f84660",
+      "bytes": 461480
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Organizations/LegitimateOrganizations/LegitimateOrganizations.mdzip",
+      "sha256": "6a4968413e9c799b4ab3a5b352c50bad8099f20975492b9ff7fd1892d45f6408",
+      "bytes": 355252
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Organizations/Organizations/Organizations.mdzip",
+      "sha256": "ede6c1c0ce2584d33d363c0285c8de6532c0562d8469119556e1077f6b52f50f",
+      "bytes": 415423
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/OwnershipAndControl/Control/Control.mdzip",
+      "sha256": "1177572fda1b63c2dc24290a3de5da24c23ea3b07ac0afb21dc01dc07886d5ad",
+      "bytes": 481675
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/OwnershipAndControl/Ownership/Ownership.mdzip",
+      "sha256": "73343a2d043e88456728466e5c7bc0b9baa659521e47343c018bada6490b6dc8",
+      "bytes": 516824
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Parties/Parties/Parties.mdzip",
+      "sha256": "e45c94f193a0f2af4413bd9606d180b3735b779a4b9505bd96b061605151c394",
+      "bytes": 499698
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Parties/Roles/Roles.mdzip",
+      "sha256": "972f883bbd859be5bb0b1e8576d7610bd2623ae28ac543870868cd6d5eda5c8a",
+      "bytes": 390250
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Places/Addresses/Addresses.mdzip",
+      "sha256": "e1887d7894cf324d4f5b2fc1d3a40830f3886b24b9247f5b4d7bf8f1ac15ddf4",
+      "bytes": 396146
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Places/Countries/Countries.mdzip",
+      "sha256": "ab4b4acdcee5e911884b671fcef6e7c6d5a06bfbe099bee591a7dad867107a5a",
+      "bytes": 361354
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Places/Locations/Locations.mdzip",
+      "sha256": "7095159ff6706c7685334fc8d627e27918f2dc0c8d8cff0218a4209aadc70084",
+      "bytes": 391071
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Relations/Relations/Relations.mdzip",
+      "sha256": "f952cc2b99ae1daac6204eb4b21e055d93e57a99267b6cabeac950c1ede74a22",
+      "bytes": 615959
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Utilities/Analytics/Analytics.mdzip",
+      "sha256": "e0bbb01725d5b9b778a0b6a2a4dd57d225c2fdb0671c95da3a262aeef1bfda36",
+      "bytes": 345355
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Utilities/AnnotationVocabulary/AnnotationVocabulary.mdzip",
+      "sha256": "67f2e7ab7948d73756e68cf9a57064c74c51d85a86d2556194c22c0ed7f58afc",
+      "bytes": 327685
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/FND/Utilities/BusinessFacingTypes/BusinessFacingTypes.mdzip",
+      "sha256": "e6e411f5edd08cb9ad0c09f8905bcc425d3f0cbd2f4a11d1ea514ba0b8a4d1ea",
+      "bytes": 429650
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/IND/FxRates/ForeignExchange/ForeignExchange.mdzip",
+      "sha256": "baee3ee903aea62edc6df724e916f975c2f8e1d891392a9c8cd1cda8fd8ba891",
+      "bytes": 333251
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/IND/Indicators/Indicators/Indicators.mdzip",
+      "sha256": "06205a93711ce7ffe9639d4969ecf282af5884712a974bea6306e9616fbee7df",
+      "bytes": 381170
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/IND/InterestRates/InterestRatePublishers/InterestRatePublishers.mdzip",
+      "sha256": "e39d25e760f719c24bc74c77e1cb3d8ab1b0131c0d2fa3cdeec66e110731aaa9",
+      "bytes": 394386
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/IND/InterestRates/InterestRates/InterestRates.mdzip",
+      "sha256": "3a93113fe23552b4f5b3f12631726cb2346e1977a34c3838526e5e03ebfc3f92",
+      "bytes": 415990
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/IND/MarketIndicators/IndicatorPublishers/IndicatorPublishers.mdzip",
+      "sha256": "0b8d06e71a86f242301f6d95dc89c096e04c71998d7371724f97f14719503071",
+      "bytes": 418440
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/spec/EDMC-FIBO/IND/MarketIndicators/MarketIndicators/MarketIndicators.mdzip",
+      "sha256": "f939f4fbd5cfab75bb0c87b1e9574a69172590d6c90158f009b2ed860dcedf63",
+      "bytes": 397027
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/techprocess/ab/20130301/SpecificationMetadata/SpecificationMetadata.mdzip",
+      "sha256": "1a1e179afae24bb8ff2887c09660c3302c516ce1c29cf90164a21bbc50d6998e",
+      "bytes": 188647
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/http/www.omg.org/techprocess/ab/SpecificationMetadata/SpecificationMetadata.mdzip",
+      "sha256": "f03e8fa8fe5f5fbbee4d33818c69348664f216e1b4cf4d35cab55cb44a0d23a6",
+      "bytes": 234458
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/ontologies/www.omg.org/EDMC-FIBO/IGNORE - experimenting due to commit fails in SecondFork - MGB.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/VOM/touch.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/root/touch.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "source/etc/source/CameoMagicDraw-VOM/touch.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "source/etc/source/README.md",
+      "sha256": "c0a41f324cf6a8b412c37805fad1cb09ae3e11e44a0805de6cf08d692046c4de",
+      "bytes": 109
+    },
+    {
+      "path": "source/etc/source/Sparx Enterprise Architecture/20140213RevisionHistorySnapshot.doc",
+      "sha256": "54e44b7782b19995184084969f42786d0a8475d11b01b53519d373d727ee4e9d",
+      "bytes": 155648
+    },
+    {
+      "path": "source/etc/source/Sparx Enterprise Architecture/EAFileZip/EDM Ontology v2-1-00.zip",
+      "sha256": "c57149111db71f3fb6c56578e03ea5a8024e4300726005d797c8376c8e17b88c",
+      "bytes": 22262091
+    },
+    {
+      "path": "source/etc/source/Sparx Enterprise Architecture/XMI2-4-1/edm_ontology_v2-1-00-xmi.zip",
+      "sha256": "b7435424194e239c9c3c2973e4ea4d10553d35a12fc8be2f1d877d1167fb2e0c",
+      "bytes": 15381639
+    },
+    {
+      "path": "source/etc/source/Sparx Enterprise Architecture/touch.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "source/etc/testing/README.md",
+      "sha256": "8e83acb8fc4640d31e3a70be141ce411a3119b5aa0b0de2122867ce5df9bd070",
+      "bytes": 70
+    },
+    {
+      "path": "source/etc/testing/data/fnd/Organizations/F0.sq",
+      "sha256": "5a4e89e0ca085dfde019a50374a3a825cb42718f76d311300527ab1f05240111",
+      "bytes": 477
+    },
+    {
+      "path": "source/etc/testing/data/fnd/Organizations/F1.sq",
+      "sha256": "64fc1f28b28b4797e2468f5c089e7a1f30b5334946a8f943bf5c5c01ac916942",
+      "bytes": 41
+    },
+    {
+      "path": "source/etc/testing/data/fnd/Organizations/F2.sq",
+      "sha256": "505fd4511f29812f0250f93657a70231f2e26b0dbb1f76daa07f2f089d868aa0",
+      "bytes": 99
+    },
+    {
+      "path": "source/etc/testing/data/fnd/Organizations/FO.sq",
+      "sha256": "cbb59bc36c0c5a8692dde3e20018dbaf0c811b78420d39d6e4816ca9b7d91428",
+      "bytes": 196
+    },
+    {
+      "path": "source/etc/testing/data/fnd/Organizations/TestFormalOrganizations.rdf",
+      "sha256": "82f0233663a0688133ab50695256a56c1bfedeab7d466ebb562af1c13b01a035",
+      "bytes": 14236
+    },
+    {
+      "path": "source/etc/testing/data/fnd/OwnershipAndControl/TestControl.rdf",
+      "sha256": "a52e76241f44fb7f4c91d0239fcd8f2887e4d83f115ac223e6e80cdece93a77f",
+      "bytes": 7531
+    },
+    {
+      "path": "source/etc/testing/data/fnd/OwnershipAndControl/TestOwnership.rdf",
+      "sha256": "97ec8fe988bd68b9de36db685a51d5a338710b50dce0290e109e96b604dc8499",
+      "bytes": 7225
+    },
+    {
+      "path": "source/etc/testing/echo.sq",
+      "sha256": "16f65941d48ddb85f8fb7c509e1fa52932691f13d6a62b9ddd87ce018a2aee1d",
+      "bytes": 304
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_annotations_comment.sparql",
+      "sha256": "46799420b6fec8606f46bc3d9e859d2dc87c3592c4b67d782ca976d27b2eeec4",
+      "bytes": 514
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_annotations_definition.sparql",
+      "sha256": "2122f56e087b0cb789644a94a67a829ab09c41192ce8e01cd9b2322fce1b3090",
+      "bytes": 915
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_annotations_label.sparql",
+      "sha256": "2c4233cd6e35078f079ed1b5cc0894a32b80cb90ae67834a7e82d38da5242a70",
+      "bytes": 902
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_classes_unique_concept.sparql",
+      "sha256": "dde224a2e630d4048c02105d99b4894ebbbbc788e93dde85817066a103a1e2f4",
+      "bytes": 794
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_cycles_subClass.sparql",
+      "sha256": "f72938ba2a89f0e1f8b45ab3769f676fe9e4a06250cbe764f918b729b2b085e2",
+      "bytes": 514
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_definitions_non-cricular.sparql",
+      "sha256": "98f1ef36c1303cbb4cd8af8c936799ab7dc08712c7cede191e0a96626fa480a8",
+      "bytes": 832
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_equivalentClass.sparql",
+      "sha256": "abdc83cd2ec7c6d8f6b14efaa7f15ec832780fef4e77c44df4c8f03be36c91a1",
+      "bytes": 884
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_iris_dots.sparql",
+      "sha256": "3c93c3e7f27998b2f04e81ed2002fe7acadaa97a6fbf3dea2dc3412b47ede7c2",
+      "bytes": 847
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_labels_single.sparql",
+      "sha256": "01d60157de2cfa481a2601909c466f2d166ce972e2031ac1e96a66a51c42b14e",
+      "bytes": 617
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_labels_unique.sparql",
+      "sha256": "ecdd96ffd553f9ee9fcd4e24d782b1ba5339d773f600509668ecd6363c6310bf",
+      "bytes": 606
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_literals_bad_chars.sparql",
+      "sha256": "4f3799ab4a5bebdc46f55d238dd59238865ef0b8e7a5cc7bb2a7e1ad5ec56e14",
+      "bytes": 852
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_literals_leading_blank.sparql",
+      "sha256": "32178e2d542b9c8bf374aae476549f26ee9041a4730868a94deb231c27183d77",
+      "bytes": 413
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_literals_multiple_blank.sparql",
+      "sha256": "e9d851d0544f153a3a8915f422ad4e49d79464ec3809f6645ad5be92610f401a",
+      "bytes": 454
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_literals_trailing_blank.sparql",
+      "sha256": "c3d1879fdb9e6dd0b9cbdea8f751c4d6db191b51ed9368780eef9c65b75b047d",
+      "bytes": 414
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_long_IRIs.sparql",
+      "sha256": "18cb10a269852af216347ddd0ec9ce5633feb6c655bc92b5e840dcf47cc0332e",
+      "bytes": 319
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_obsolete_restrictions_exact&min.sparql",
+      "sha256": "46cbdce8b0db933c29e0266f1c1c5f8cb0a60728932a843a8969fd1064f720e9",
+      "bytes": 1679
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_obsolete_restrictions_exact&min_remote.sparql",
+      "sha256": "f2cf3da29c30a3dbeb9c9c7b817ed8d0df35a65468ad5c991b9f656447e72536",
+      "bytes": 1824
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_obsolete_restrictions_max&exact.sparql",
+      "sha256": "7dd9e32ad3bed9bee416c1e6eb2d266f951554ff16dc832239b100d9697ba6fe",
+      "bytes": 1764
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_obsolete_restrictions_max&exact_remote.sparql",
+      "sha256": "8f278e25b714191d89982d0d7f7b12af1a9460e6a71501e4c7ef367f95e01bfb",
+      "bytes": 1816
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_obsolete_restrictions_max.sparql",
+      "sha256": "2e770eccd7ff2ea665fdf27a6d1342cceb0df5ad7c972020987053a9885b64a9",
+      "bytes": 1741
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_obsolete_restrictions_max_remote.sparql",
+      "sha256": "5c84e09b33347635647a9d17ca64bfb1450eb0209fa0bd6c81ac0848bf3fe17a",
+      "bytes": 1847
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_obsolete_restrictions_min.sparql",
+      "sha256": "82881512513b92f3a77fe3172c506735405b4aa69bac841ff5074c1f7dbc64e7",
+      "bytes": 1872
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_obsolete_restrictions_someValuesFrom&exact.sparql",
+      "sha256": "ae56d3384a8f5ae21f759301af5c60d252e16a5d6cba503ae0b667912f21d902",
+      "bytes": 1598
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_obsolete_restrictions_someValuesFrom&exact_remote.sparql",
+      "sha256": "40c70b96f515cedc338744607ceb6c51b6df7d526112bd529cfd4de67994d28b",
+      "bytes": 1703
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_obsolete_restrictions_someValuesFrom&min.sparql",
+      "sha256": "7d3dc99c96e64e669b03cd120d5ca24ad49bf3f6e31ff8014b17633e3e681a56",
+      "bytes": 1596
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_obsolete_restrictions_someValuesFrom.sparql",
+      "sha256": "88db6230e272c2f446e71f982cbf265fb64c7a1a162a4f957af704489f774bef",
+      "bytes": 1624
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_ontologies_abstract.sparql",
+      "sha256": "8d32a7a52c5550318426cbc71744cdd2b10c893f53a18c4dc22e83c441ecfce1",
+      "bytes": 837
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_ontologies_copyright.sparql",
+      "sha256": "f0024475cb391d251575656cefbf56129cc66ab4363d3d85f71cebcf8ad8d5f0",
+      "bytes": 870
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_ontologies_label.sparql",
+      "sha256": "96b99598c596ed995027e145cc5103daebe1e3f97b05243509b7f4665aa13d79",
+      "bytes": 828
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_ontologies_license.sparql",
+      "sha256": "61377b86e41d1cd3fde615cbad70cf4afa3e0277a1ce72fc9004e53a93941f09",
+      "bytes": 833
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_ontology_circular_imports.sparql",
+      "sha256": "fe0e10ca7c6cfb1e42352ce7922aa30f2b431da94b427b7f42b61034942d373f",
+      "bytes": 473
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_opaque_iris.sparql",
+      "sha256": "91a6f5ddc8d905372901d3dca0f3b7ff8ed3cdafa773845626af688593edc7ea",
+      "bytes": 581
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_performance_allValuesFrom_equivalent.sparql",
+      "sha256": "5fb8c20d2d0b9442752139339b539a890a971e419fb808ae5133d1d246062a3b",
+      "bytes": 1014
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_performance_cgi_with_equivalent.sparql",
+      "sha256": "bde427f3fba793afa031d563e0687a885ad3ccfc8954e392dbf80c28b6af7620",
+      "bytes": 520
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_performance_cgi_with_subclassof.sparql",
+      "sha256": "e7a5a1f157514595d45d5234338d9e98e8a79970fd881ae22886b1fc17f30177",
+      "bytes": 575
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_performance_complement_equivalent.sparql",
+      "sha256": "165787dfbf08bb64fc08bc29be6c3e6d42483a31c828abdd02bd069f41715191",
+      "bytes": 699
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_performance_high_max_restriction.sparql",
+      "sha256": "567b1ec8b4f32817bf67daf97f734202f4cb94d4830bbf9d1d410474bd459260",
+      "bytes": 737
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_performance_high_min_restriction.sparql",
+      "sha256": "7490c9b231f9e54c492c7c09bd72f81eb1c842b546f8e12a4faf33557d347a62",
+      "bytes": 737
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_performance_left_subclass_and_equivalent.sparql",
+      "sha256": "a1898beda1a4330c5073f27fb68c13dd4c56d9b6479b52d1c91549233f26874a",
+      "bytes": 682
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_performance_multiple_different_individuals.sparql",
+      "sha256": "45fe2c43930b94193eaed52a104c9d7923497182a8b2092140945f5490b8190e",
+      "bytes": 883
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_performance_multiple_disjuncts.sparql",
+      "sha256": "5b8c382dfc220a103839124e3d2f97ddd796d0dab68b572eac8fa499a3fe7ea5",
+      "bytes": 793
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_performance_thing_equivalent.sparql",
+      "sha256": "c24cedd693abb88002248a328b900fef0083b83555eed05aabd9d742010443fd",
+      "bytes": 622
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_properties_inverse.sparql",
+      "sha256": "484b22d864b008a0cbfd1bae6336408540d628417f535c002345368ac6fe3719",
+      "bytes": 837
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_properties_iri.sparql",
+      "sha256": "68c37f1a5610fd4e0d30af9faf91c16ff88dee2d0910b9250d09aeed7c6967f8",
+      "bytes": 763
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_properties_punning_chain.sparql",
+      "sha256": "db4c67f33c295212b98ae12bb0a43740b2b96cac6b428a07f43c87f66ab7b0a8",
+      "bytes": 600
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_properties_punning_declaration.sparql",
+      "sha256": "26739311dc93748f4fd96fd289159e22616d4f22dd96ed053c42cd8e94dd4d93",
+      "bytes": 593
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_properties_punning_disjoint.sparql",
+      "sha256": "88391ae14f4495c41fc3fef38a48b8d464cc2e97007f74b22eed16fd7ffc7fbf",
+      "bytes": 925
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_properties_punning_equivalent.sparql",
+      "sha256": "93e482a37a896d21e5795fb963fca0ab037b7b5c5359c590717440a7262139fb",
+      "bytes": 925
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_properties_punning_inverse.sparql",
+      "sha256": "211a1b8c5e27d6510eb2d4a6ce5aa9c26e41811244ce8d6e026030e7a0101da3",
+      "bytes": 735
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_properties_punning_subproperty.sparql",
+      "sha256": "d1d6e29c4e2d78236d78b191105d979d38d7fed6f63577b7b2c1fefcc0a5e6db",
+      "bytes": 584
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_properties_subproperty_domain.sparql",
+      "sha256": "b11cbf64831817846772771298ade222ca8619d7ae4c622eef20df03d7117fbf",
+      "bytes": 975
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_properties_subproperty_non-circular.sparql",
+      "sha256": "00cf26c2672641123b662e6da34359fc4c51614e2cb17b5199fbe19489750fb3",
+      "bytes": 544
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_properties_subproperty_range.sparql",
+      "sha256": "c0fb1eae14b06fc5baf67db352dddbfad2f1140858defc6670457da936066356",
+      "bytes": 965
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_resources_deprecated.sparql",
+      "sha256": "eaf6bc0265542b1f688b1ac6796012dbd873a158c688536427d449f569da7319",
+      "bytes": 994
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_resources_deprecated_count.sparql",
+      "sha256": "dd673637619ae8066cc57d69c242533680116ca5101b95a4949f0209df6dc2ba",
+      "bytes": 400
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_triples_owlThing.sparql",
+      "sha256": "e9023b16d4bcdad7a3633cb93482806c4d196d89c87191a5118413201516a470",
+      "bytes": 817
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_triples_untyped_object.sparql",
+      "sha256": "eb29c1521c68fd3ea1b12fe16d6bedf2982c574d46a22f55ff0aca7b21145fe8",
+      "bytes": 1141
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_triples_untyped_property.sparql",
+      "sha256": "6b07b64c8b8c2fd40e628e2536d7c4de30589dade67d80fb53254fa0d98e97e5",
+      "bytes": 1076
+    },
+    {
+      "path": "source/etc/testing/hygiene_parameterized/testHygiene_triples_untyped_subject.sparql",
+      "sha256": "1e53a035a22aa3dbad86667832e9210917d0ce96966d5e0343ecec28297eb722",
+      "bytes": 1068
+    },
+    {
+      "path": "source/etc/testing/test-strategy/FIBO Test Strategy Theory.docx",
+      "sha256": "dbe4776419095c10890ab7dbb21a1621b44e65b36de9eb1d2f91867001fe5f3f",
+      "bytes": 101039
+    },
+    {
+      "path": "source/etc/testing/test-strategy/FIBO Test Strategy.docx",
+      "sha256": "f4d9b6c33506c03548a7101c43e6d252dee2260ec528bd05c5df6db9652ff394",
+      "bytes": 227043
+    },
+    {
+      "path": "source/etc/testing/test-strategy/OQuaRE FIBO Table v1.docx",
+      "sha256": "8ba00cf2c2680b0f276d4b7493969d87a2a110ae976103cc78025603b4b31fde",
+      "bytes": 122062
+    },
+    {
+      "path": "source/etc/testing/touch.txt",
+      "sha256": "3432c1c2078e503a655c3680f02dc76239e8256d23b7482c6c10f73808d998d6",
+      "bytes": 38
+    },
+    {
+      "path": "source/etc/vocabulary/README.md",
+      "sha256": "9ef1012f86dbfab37a0d9bfc15f9f882fcf08ba9a78b046c6d0929cc4191ddf3",
+      "bytes": 136
+    },
+    {
+      "path": "source/etc/vocabulary/classes.sparql",
+      "sha256": "783cce64bb38a730905e7dd55f6145b5ce269b1ff34af113d5803191004c7897",
+      "bytes": 1127
+    },
+    {
+      "path": "source/etc/vocabulary/properties.sparql",
+      "sha256": "3030670887879fe4015cb7828c3d9f56584401e51a550fdde642a7d1c3fa622e",
+      "bytes": 1638
+    },
+    {
+      "path": "source/etc/vocabulary/scaffolding.ttl",
+      "sha256": "96ea5967501ae36d434dbe55c5861f1acb6282fe3c2bb8fcbf1ed7500ecec767",
+      "bytes": 1320
+    },
+    {
+      "path": "source/etc/vocabulary/subclasses.sparql",
+      "sha256": "db42f26e318e127ee400fca0b0d783178f5e706a9694e741611f172694004e67",
+      "bytes": 868
+    },
+    {
+      "path": "source/etc/vocabulary/subproperties.sparql",
+      "sha256": "5519d67bcc39a6559a7a5c8e42f7c17c4b7edffb809e99d9920ca964a4cac971",
+      "bytes": 967
+    },
+    {
+      "path": "dependencies/Commons/AnnotationVocabulary.rdf",
+      "sha256": "0f31efad729e9c5dc260d4cca8cb92c69ec25a4554ead4c866903f652e3789f7",
+      "bytes": 23277
+    },
+    {
+      "path": "dependencies/Commons/BusinessAuthorizations.rdf",
+      "sha256": "603b9985b7553c49cd5e9adfd055dab8c4fb1b3d88a6db51e031d6df9cef12d3",
+      "bytes": 15719
+    },
+    {
+      "path": "dependencies/Commons/Classifiers.rdf",
+      "sha256": "766312bdb13a27cdc6fe722d5be3c815135a284dbb5e6990455cc655aecad6e9",
+      "bytes": 10348
+    },
+    {
+      "path": "dependencies/Commons/CodesAndCodeSets.rdf",
+      "sha256": "272ea377f588ed30759c37a2b0455a8b04643c8114ebf35ad31656c039d09150",
+      "bytes": 6153
+    },
+    {
+      "path": "dependencies/Commons/Collections.rdf",
+      "sha256": "44450edbe870cad6fa406319ecb21fed6a27824904e865b1d683f8bfd2a03553",
+      "bytes": 12677
+    },
+    {
+      "path": "dependencies/Commons/ContextualDesignators.rdf",
+      "sha256": "aa1c6c1d403a79b04b5f1cf65d1cd993b64d87aee51b9f7a3889ea06f01a96a8",
+      "bytes": 10469
+    },
+    {
+      "path": "dependencies/Commons/ContextualIdentifiers.rdf",
+      "sha256": "c26dd75874f66ca5a7dcfff0285b0f0cb8f2c66f0de56190e7f1220c702a28f7",
+      "bytes": 6488
+    },
+    {
+      "path": "dependencies/Commons/DatesAndTimes.rdf",
+      "sha256": "29f48874c004475893202d0359ca1deb9e44e87d6e1a382e12e57c0fc86f90e7",
+      "bytes": 32303
+    },
+    {
+      "path": "dependencies/Commons/Designators.rdf",
+      "sha256": "6475c00a66050560c11560c91e824118aaa4f13f9e0d62e8eddaf2eb6a447eca",
+      "bytes": 16423
+    },
+    {
+      "path": "dependencies/Commons/Documents.rdf",
+      "sha256": "958264c82c7011097cf6da6352464dc094a9d1cada1d37a41ff26ed763f91a5c",
+      "bytes": 17703
+    },
+    {
+      "path": "dependencies/Commons/Identifiers.rdf",
+      "sha256": "c5ed5f3551ff4d0a711bd50ff6a7388383a1cf33a27bc1661e54f6bf7a75987a",
+      "bytes": 6920
+    },
+    {
+      "path": "dependencies/Commons/Languages.rdf",
+      "sha256": "5c2a08e01e24f84cba64aebfa3e6ed21e9ef6daa6a8e22c7e6b902b8c4673a2f",
+      "bytes": 13328
+    },
+    {
+      "path": "dependencies/Commons/Locations.rdf",
+      "sha256": "0d6a8eedb4461f4256ea61f03506e882bdadc8b1ca2024493eb6585b3e574c31",
+      "bytes": 32882
+    },
+    {
+      "path": "dependencies/Commons/Organizations.rdf",
+      "sha256": "3a1ab7e936b656fff8aa8beb44d30ddc02aaa6f6eac5353d4157e355ef164eb7",
+      "bytes": 32334
+    },
+    {
+      "path": "dependencies/Commons/PartiesAndSituations.rdf",
+      "sha256": "1c207e4f04e51fee7d06bbee1e5c53ae90f04374da3568e0470699d8f20cc1f3",
+      "bytes": 30432
+    },
+    {
+      "path": "dependencies/Commons/QuantitiesAndUnits.rdf",
+      "sha256": "b1fbe90e6c4b23cd7c7485fbe06b94d373b598ece83f074c05b82b8bcc399d7f",
+      "bytes": 72711
+    },
+    {
+      "path": "dependencies/Commons/RegistrationAuthorities.rdf",
+      "sha256": "38562388ef6790635abc5b09eee644a60a659544520b1f93a333ed3e50460991",
+      "bytes": 15727
+    },
+    {
+      "path": "dependencies/Commons/RegulatoryAgencies.rdf",
+      "sha256": "cd309406734bb8ba01a5626d1af7b5c8dc6bb3ab3a275e3faac791e5dd460d55",
+      "bytes": 14118
+    },
+    {
+      "path": "dependencies/Commons/RolesAndCompositions.rdf",
+      "sha256": "81d40576c2afa3f1a9fabd0b08f67a31e1a82bead9467782d8450d7b331275fc",
+      "bytes": 10625
+    },
+    {
+      "path": "dependencies/Commons/SitesAndFacilities.rdf",
+      "sha256": "9c4672f52a8a6e1ce743af6110a0e3cd8229cd5120e8e21936f253d786fb72ac",
+      "bytes": 12171
+    },
+    {
+      "path": "dependencies/Commons/StructuredCollections.rdf",
+      "sha256": "288c3d5f047ccda3ee1c48c81ac462829182aa943f83003317b4038714a29430",
+      "bytes": 10621
+    },
+    {
+      "path": "dependencies/Commons/TextDatatype.rdf",
+      "sha256": "d29a6e24bffb67fd6a4fe9955880fb9e8bd2f858a12d3e846fc45fd571bd8314",
+      "bytes": 5976
+    },
+    {
+      "path": "dependencies/LCC/Countries/CountryRepresentation.rdf",
+      "sha256": "9f4cb2a7880e4d064adacd8edbf37a82d7e44016b964b60f1096f07c52584287",
+      "bytes": 34058
+    },
+    {
+      "path": "dependencies/LCC/Countries/ISO3166-1-CountryCodes.rdf",
+      "sha256": "58c609df159f063c8f13c7aab508487c10d0337306a7bf85023d105ee77c26c4",
+      "bytes": 710819
+    },
+    {
+      "path": "dependencies/LCC/Countries/ISO3166-2-SubdivisionCodes.rdf",
+      "sha256": "e41d8a7df4401e12e7ffd7b97cf88bbbf1b7084ed5287db858d1fddcdcec53b6",
+      "bytes": 5897
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AD.rdf",
+      "sha256": "d09ea30bd70029f7c4269f56c467a7ce7a430787d9c115f04b6b9d6bbe9d68ba",
+      "bytes": 19019
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG.rdf",
+      "sha256": "728c9489bd7d644487aae41f78e9bbaf331fbd91f38d28e8912402b2f2c4d441",
+      "bytes": 22850
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL.rdf",
+      "sha256": "91581ad323705b4be3935db555857f13106e9bb2bdbbded84226d4126383adff",
+      "bytes": 27738
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AS.rdf",
+      "sha256": "36fd06a41e76a3f60eee71752abf934bf9bd4def38eae6047c1c5a14520b6c7b",
+      "bytes": 7930
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT.rdf",
+      "sha256": "ff98a1740345eb4b03047458da0922356eb6f3f0b804181326dd2983442f8f09",
+      "bytes": 22522
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BA.rdf",
+      "sha256": "3cebec5ca3fdea6c18ab56dbceb9acc789179081dc91752a2963164ec6e35ed2",
+      "bytes": 14878
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BB.rdf",
+      "sha256": "205229316a3c3d75cc4e039c213376b285acea61f2567de398c51ff0ac2f2369",
+      "bytes": 26384
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE.rdf",
+      "sha256": "13fc0d8cfd79d16d31edd47f488933002a6329497c227d662bb9079eadc203d4",
+      "bytes": 31254
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG.rdf",
+      "sha256": "27098194a75f501a093cf715a933022183111f776ee9345daaf13973c0f68bba",
+      "bytes": 57055
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BQ.rdf",
+      "sha256": "2b61c626a619c57dae93a9e2a68c103e2672dd8c16b882904aaccba9602307bf",
+      "bytes": 16198
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS.rdf",
+      "sha256": "aa93f7bba4185118ae4b09f327203a4144df71055b6470e0613a10984f1b6a4d",
+      "bytes": 66282
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY.rdf",
+      "sha256": "69a3f138cb8e69a4c2a79ec59f9075f202a7ee8f4a7ab9ed55e2c08b3bcf8f53",
+      "bytes": 23395
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BZ.rdf",
+      "sha256": "404d5dec32fc89fa767a76b4c53c6fe989c23f456b521cc0f62145b371f8711b",
+      "bytes": 17000
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA.rdf",
+      "sha256": "b7315235e5f5a684a66dcb3e6e0665bbe9ee16db41f2b7c6bd2409faa42fa944",
+      "bytes": 32709
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH.rdf",
+      "sha256": "8636dc8640d734f679bd2ddceb96497667f0f8beff0e011654172508be473646",
+      "bytes": 54652
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CR.rdf",
+      "sha256": "2c092d110597656f3de3bba1ba9f179d93910d2ce5442cd51c9f18148a897b3b",
+      "bytes": 19990
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU.rdf",
+      "sha256": "643e653417b78d9d136f105afdea8fe0884e70e56da5153f8941435978231723",
+      "bytes": 35970
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ.rdf",
+      "sha256": "eeb89b28e68d000bddb126bf101147c294507694c3eaf461226571fd36390e5d",
+      "bytes": 173876
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE.rdf",
+      "sha256": "e320314568872b8a68e6f194e1109c0ef66fe5d391573a50bbc685bc410e9a32",
+      "bytes": 35448
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK.rdf",
+      "sha256": "f3fbf8fea3315215251bd85eb40c15866cb9f4380828f49c5d4fc42a55b56325",
+      "bytes": 15222
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM.rdf",
+      "sha256": "dc5777480da73c50783a29258b29f8e0858d4a675756e188da4cb04d64c32ceb",
+      "bytes": 24504
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DO.rdf",
+      "sha256": "308726e7c8a583fdb28e79b786e6e7a5008e7eeb42052be14ff01c8fd2d3cda8",
+      "bytes": 86628
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE.rdf",
+      "sha256": "25b9b3a181c984c2575b60967a2f13ab25bfa3010a6d014393a54e2b55b62ece",
+      "bytes": 179236
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES.rdf",
+      "sha256": "3f61316072bb21c9d50556d356d4fb79f2f76536e8fa5ffbf75d970b8a02f7b8",
+      "bytes": 134866
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI.rdf",
+      "sha256": "87ceb66a715c87b35455027535033b6890ff33217b8499b2f4cc51f6c955df87",
+      "bytes": 45199
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR.rdf",
+      "sha256": "a4687a0402f7e0e906adfb6bcf05d779e0df04c313d9dc034ed45391fb4246e1",
+      "bytes": 250158
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GB.rdf",
+      "sha256": "06ff860b0cd067a9e4db472d48568207385172dfacadd2a2bf12fb389158feab",
+      "bytes": 450925
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GD.rdf",
+      "sha256": "eefd8c3179e5e01293a2251bc7ff3a9b913ba5a124dfecd7e84ff7c3647a7edd",
+      "bytes": 22011
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GG.rdf",
+      "sha256": "eacb7195fd88baf0d243425028c5e6161cf11df4df3c356122ac4c0789b3dc6a",
+      "bytes": 15607
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GL.rdf",
+      "sha256": "4df020845093ffed39718d6cbef46ff64df1ce3730a5fa9294c8c85f6581404e",
+      "bytes": 15527
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GP.rdf",
+      "sha256": "c56275e89158a5d75f453ccb27dda11cba913a400910235ca912eec267b1fcb1",
+      "bytes": 9101
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR.rdf",
+      "sha256": "1b3899627454f1fbe85f34fd4c9b71f9539a1591cd805bf32a801a5ed0ec2d47",
+      "bytes": 33825
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GT.rdf",
+      "sha256": "06082c2eb8de9ea047b1cad68b13a0bff5c4555d932dfaf90636d3b9599672ed",
+      "bytes": 46753
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN.rdf",
+      "sha256": "73e70dd1db5506a6621efb4df8337fc858f78026a9e653cc376ba92d1f2c22b2",
+      "bytes": 40373
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR.rdf",
+      "sha256": "1fb2a814ad75c2fefbeb4e0e810b92068d0314052b28fc9668662e9814f6f436",
+      "bytes": 47112
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT.rdf",
+      "sha256": "0e886945bdf2bd12cb9882ce62b434bd634e0cf8599e2063b5b64befa76d9da7",
+      "bytes": 25673
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU.rdf",
+      "sha256": "52f3617f45aeb4291e4362152a24e74c8857fab3edae07a217bece1950509007",
+      "bytes": 86489
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE.rdf",
+      "sha256": "05c98bcc9957971f704492d51041344f0767bbd9fa565184d92411f91985f351",
+      "bytes": 65692
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS.rdf",
+      "sha256": "3a9422b7689cc1474553bae8ed2ee54a4a32041ccd4ab5a9bbd57c5ad79f974e",
+      "bytes": 153406
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT.rdf",
+      "sha256": "95faa919f9f5a51b014dff42a71892159f0d9a8e33c42419f62fb43d55055672",
+      "bytes": 241100
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KN.rdf",
+      "sha256": "4c97ed9b619cb4e66c2b12f854ee3f4d00780d5754971a1a9ae230c8c3b6332b",
+      "bytes": 38755
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KY.rdf",
+      "sha256": "31428fcdce282bd3b16fce50dc7fa6e6c977f38b19bc68092ffc393f677e1551",
+      "bytes": 6796
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC.rdf",
+      "sha256": "239ec740dd78045fecb431c63667acab2a75d973313fc5bd88f653b5bb886235",
+      "bytes": 24503
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI.rdf",
+      "sha256": "f050b184767932e6398481e1ae3f4065a7396031158fc5c1864dffbfbc927d8b",
+      "bytes": 26314
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT.rdf",
+      "sha256": "cb14ecba61b25793f0c6dfb0c44ac0a8c5c9c997f0529ac6a6a21f97fecb7c41",
+      "bytes": 138863
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU.rdf",
+      "sha256": "0e8cec5373a1312c7675bc617c2cafc58fa5a8eba83a07c4f4936746cf1bb794",
+      "bytes": 31488
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV.rdf",
+      "sha256": "8b038256552be150a5c5ec9eddf46af0497db9e001efaf932c2a54438f8269d7",
+      "bytes": 86929
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC.rdf",
+      "sha256": "9c9e291dcb64055c59475c6f27878c50b653e02b6442b56e2530cef5f13390fd",
+      "bytes": 37339
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD.rdf",
+      "sha256": "2abf2edebb830e18449d67a34be4f42e8c693dc3f10c33ee21f553d1d2bf64dd",
+      "bytes": 77117
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME.rdf",
+      "sha256": "85202425b281fb07c50b2a89bd37c0d7c9328394679b4a5eea113d569d3a75ef",
+      "bytes": 48469
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MF.rdf",
+      "sha256": "36c33910d8a614174a8064e5ce53e45845b5cc3105a2f754d246cfd5b0fbfb78",
+      "bytes": 6803
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK.rdf",
+      "sha256": "cef00792b7d8d59cdf2aace517fd2be9adf0a25299bd961d691360a1f2ffeb82",
+      "bytes": 155045
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MP.rdf",
+      "sha256": "aa0213f56b69b8f613ecb884259ed8f210e2b9a2a1af8b405b16cb9b5cc4ddd8",
+      "bytes": 8229
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT.rdf",
+      "sha256": "e39adc3cca94705941672ba4c76cc4939be02f5b482f0b97cdcd49667dc49904",
+      "bytes": 139790
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX.rdf",
+      "sha256": "e2b83e0f7d45dafadc1fd578b3ff2749d3790222da50b178c59353b425c81fe6",
+      "bytes": 65541
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NI.rdf",
+      "sha256": "014e077d051e2760edba0ecb3a7f65a8b805d73d197fc38b59e6c933bf8fc0ca",
+      "bytes": 37978
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL.rdf",
+      "sha256": "67e59bc9d378fa08820f3a60faa2d596aaa9fb0f0ecf8d2c5eed93e7b6b89340",
+      "bytes": 41617
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO.rdf",
+      "sha256": "43053671851c9f9f7a089c0d6b7c30ae7905e60e41a3c2e28df23151abc75a6b",
+      "bytes": 33001
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PA.rdf",
+      "sha256": "969e414b774e9ab3c09c87b31874049c44ea5ace99a3765cb9c45f957941ea1e",
+      "bytes": 32199
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PL.rdf",
+      "sha256": "560a4ec896c7f00237f26313595d8cbed5ca1e2a06e85f1b53c4b70626d7e356",
+      "bytes": 35717
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PM.rdf",
+      "sha256": "1206123a3fa9df9fc78d40f56bf965484a0ef4f1ea618b8e08bb8196f03f21dc",
+      "bytes": 6818
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT.rdf",
+      "sha256": "c7f4483b3e93ef18c942d0533154881581b9d7beffae2f3f3748b40f75d901fa",
+      "bytes": 43368
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO.rdf",
+      "sha256": "17c3cbadec5eb8fb87a799d76901b90fe1e92da9a5ea22dd344f7e92a1888f2b",
+      "bytes": 82819
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RS.rdf",
+      "sha256": "bca1514d0f8bc0079fdbabaca5ac7a51cf91d3327d6bde8f70f4604d99daabf8",
+      "bytes": 66949
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU.rdf",
+      "sha256": "7659bb21020922608f489721add93bd9da4bc85be8184339ce4b70da88adc1e1",
+      "bytes": 185033
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE.rdf",
+      "sha256": "225f8cdf346f6c1cb82aea77c627350c928a11583215d18678e98d62f00ac49e",
+      "bytes": 45686
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SI.rdf",
+      "sha256": "b066a3500a199843331ccbe4f5ee13b866ff0c41cfc9d3c225ac34a95622e1fc",
+      "bytes": 396859
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SJ.rdf",
+      "sha256": "3854396585165c5ee85618f509d34d76b31cb1da504fc00606329ff98183f4a6",
+      "bytes": 7888
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK.rdf",
+      "sha256": "a203f9238d27f77a10e763c8f60d73e09d03e28e15759147cc1fe3d86e9e107b",
+      "bytes": 20982
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM.rdf",
+      "sha256": "f37fdc0c873075cf30e47dbda781e57d08ced3af56532b58b21fd95d1c1f6ab2",
+      "bytes": 22745
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV.rdf",
+      "sha256": "ad11f33c90fce429f3dbd19f5b6c1d628b35db9096f3a4c8677f562b56d535b1",
+      "bytes": 32021
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TC.rdf",
+      "sha256": "4c61360df86403c1706026b6491d06e94114200574fe583af8b8b9e9159addd7",
+      "bytes": 6870
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TT.rdf",
+      "sha256": "3b87d102cf5bd0a83787834e82e9afeea588666c405a33be7192b1192950dcde",
+      "bytes": 37274
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA.rdf",
+      "sha256": "2b60b2b153885ae00d3c0ea117104ef6c879470c1d7f5e31d712778345820c25",
+      "bytes": 57651
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM.rdf",
+      "sha256": "f8b16654524f91375093af35f660cbcd288e8e52c5dc9118a4212a2bbcae98bf",
+      "bytes": 35429
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US.rdf",
+      "sha256": "9c802d73b0e7be412b56552c56cfe6457d55aa32d55d71fa39f54a35c3add681",
+      "bytes": 116185
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC.rdf",
+      "sha256": "d233fe447a1ed4d021ed6cec755036cde98a049fb92b9ccfef854efa5f7d738c",
+      "bytes": 21554
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VG.rdf",
+      "sha256": "20384664632dd42cfa1016984d3d5ba0abefc293e4e3db8708399c895f2da766",
+      "bytes": 10382
+    },
+    {
+      "path": "dependencies/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VI.rdf",
+      "sha256": "3c6c0b2c1f078cab69595f5b08137c68305f3bf0e8e83e3218b7f3495d658698",
+      "bytes": 9154
+    },
+    {
+      "path": "dependencies/LCC/Countries/UN-M49-RegionCodes.rdf",
+      "sha256": "bfa5fa91adb40f30fa2a06a3d7ff0859e9b15c0de3e42d3eae9b61d16a4a8732",
+      "bytes": 74187
+    },
+    {
+      "path": "dependencies/LCC/Languages/LanguageRepresentation.rdf",
+      "sha256": "534744f6bedd336ca86702dc880bc185064b78674bd7b748752d16f6a69de7b5",
+      "bytes": 50471
+    },
+    {
+      "path": "index.sqlite",
+      "sha256": "3f8b46b65d8844de81d428cce73dde38a3e8bad794df36a3174c398a2823e2b8",
+      "bytes": 19509248
+    },
+    {
+      "path": "coverage.json",
+      "sha256": "6ca6b4b847d4b2f35bc1d94f203e0d882affe8ceb049b7bdbc644493a47cb785",
+      "bytes": 1656
+    },
+    {
+      "path": "upstream.json",
+      "sha256": "520c150b1088466809750039f699973fd6b250be90b7f647336bcac6a5f7d87d",
+      "bytes": 262
+    },
+    {
+      "path": "dependency-sources.json",
+      "sha256": "f3ed5b8e67f771aadc24b65526b7e09f53042947aa9619c203cf69cb0a2b8a2a",
+      "bytes": 28505
+    },
+    {
+      "path": "dependency-licenses.json",
+      "sha256": "a4b3a35257ee0fecec73743ea41ed2aa1dafeddda23a5382f6364faaa3f77a8c",
+      "bytes": 37287
+    },
+    {
+      "path": "DEPENDENCIES.md",
+      "sha256": "d94f6f1fd9c16ee5410a60cbc7d004b842ff6fb51522924ee7016dafb9f633db",
+      "bytes": 1370
+    }
+  ],
+  "coverage": {
+    "term_rows": 27520,
+    "ontology_identifiers": 756,
+    "imports": 382,
+    "unresolved_imports": [
+      "https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-NorthAmericanExamples/"
+    ],
+    "release_unresolved_imports": [],
+    "parse_failures": [],
+    "maturity_counts": {
+      "ExternalReference": 10938,
+      "Informative": 62,
+      "Provisional": 1683,
+      "Release": 6766,
+      "Unknown": 8071
+    },
+    "resolutions": {},
+    "lexical_warnings": [
+      {
+        "file": "source/DER/DerivativesContracts/MetadataDERDerivativesContracts.rdf",
+        "value": "2025-6-24T18:00:00",
+        "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      {
+        "file": "source/FBC/AllFBC-Europe.rdf",
+        "value": "2025-10-6T18:00:00",
+        "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      {
+        "file": "source/FBC/AllFBC-EuropeAndNorthAmerica.rdf",
+        "value": "2025-10-6T18:00:00",
+        "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      {
+        "file": "source/FBC/AllFBC-NorthAmericanExamples.rdf",
+        "value": "2025-10-6T18:00:00",
+        "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      {
+        "file": "source/FBC/AllFBC-ReferenceIndividuals.rdf",
+        "value": "2025-10-6T18:00:00",
+        "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      {
+        "file": "source/FBC/AllFBC-ReferenceMarkets.rdf",
+        "value": "2025-10-6T18:00:00",
+        "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      {
+        "file": "source/FBC/AllFBC.rdf",
+        "value": "2025-10-6T18:00:00",
+        "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ],
+    "complete": false
+  },
+  "upstream": {
+    "repository": "https://github.com/edmcouncil/fibo",
+    "tag": "master_2026Q2",
+    "commit": "f59157fe156e3d91b1c045222d0a7dc06b7d78a2",
+    "verified_git_blobs": 467,
+    "source_archive_sha256": "c6c0c5102a47d2a281b8b2430fd201687f8cc8fad067740770c73094cae9a66d"
+  }
+}

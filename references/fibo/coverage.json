@@ -1,0 +1,56 @@
+{
+  "term_rows": 27520,
+  "ontology_identifiers": 756,
+  "imports": 382,
+  "unresolved_imports": [
+    "https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-NorthAmericanExamples/"
+  ],
+  "release_unresolved_imports": [],
+  "parse_failures": [],
+  "maturity_counts": {
+    "ExternalReference": 10938,
+    "Informative": 62,
+    "Provisional": 1683,
+    "Release": 6766,
+    "Unknown": 8071
+  },
+  "resolutions": {},
+  "lexical_warnings": [
+    {
+      "file": "source/DER/DerivativesContracts/MetadataDERDerivativesContracts.rdf",
+      "value": "2025-6-24T18:00:00",
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    {
+      "file": "source/FBC/AllFBC-Europe.rdf",
+      "value": "2025-10-6T18:00:00",
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    {
+      "file": "source/FBC/AllFBC-EuropeAndNorthAmerica.rdf",
+      "value": "2025-10-6T18:00:00",
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    {
+      "file": "source/FBC/AllFBC-NorthAmericanExamples.rdf",
+      "value": "2025-10-6T18:00:00",
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    {
+      "file": "source/FBC/AllFBC-ReferenceIndividuals.rdf",
+      "value": "2025-10-6T18:00:00",
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    {
+      "file": "source/FBC/AllFBC-ReferenceMarkets.rdf",
+      "value": "2025-10-6T18:00:00",
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    {
+      "file": "source/FBC/AllFBC.rdf",
+      "value": "2025-10-6T18:00:00",
+      "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+  ],
+  "complete": false
+}

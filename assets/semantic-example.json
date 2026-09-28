@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.1",
+  "project": {
+    "id": "SYNTHETIC-PAYMENT-SEMANTICS",
+    "title": "支付条款与业务约束示例",
+    "version": "0.1",
+    "status": "draft",
+    "purpose": "演示条款证据、业务约束和修订影响；全部内容为合成材料，不代表任何银行制度",
+    "domains": [
+      "支付"
+    ],
+    "application": "业务评审与技术交接演示",
+    "owner": "未进行真实业务评审"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "path": "semantic-example-source.txt",
+      "kind": "synthetic",
+      "version": "1",
+      "sha256": "dc6b03114a5de3ea9ff35e9ce05e390c002855fa0caf9b5b69c18c04d9411af2",
+      "blocks_path": "semantic-example-source.json"
+    }
+  ],
+  "records": [
+    {
+      "id": "O1",
+      "kind": "object",
+      "name": "支付指令",
+      "definition": "一项发起支付的业务指示，不代表支付已经完成。",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L1"
+        }
+      ],
+      "links": [],
+      "details": {
+        "identity": "指令号及标识域",
+        "domain": "支付",
+        "model_level": "class",
+        "term_name": "PaymentInstruction",
+        "labels": {
+          "zh": "支付指令"
+        },
+        "iri": "https://bank.example/ontology/PaymentInstruction"
+      }
+    },
+    {
+      "id": "IU1",
+      "kind": "information_unit",
+      "name": "支付前置条款",
+      "definition": "支付前置条款（合成示例）",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L1"
+        }
+      ],
+      "links": [],
+      "details": {
+        "content": "金额不得小于0；执行前应完成复核，特殊情形参见L2。",
+        "unit_type": "requirement",
+        "statement_nature": "normative",
+        "representation": [
+          "text"
+        ],
+        "about_ids": [
+          "O1"
+        ],
+        "exception_unit_ids": [
+          "IU2"
+        ]
+      }
+    },
+    {
+      "id": "IU2",
+      "kind": "information_unit",
+      "name": "豁免条款",
+      "definition": "豁免条款（合成示例）",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L2"
+        }
+      ],
+      "links": [],
+      "details": {
+        "content": "豁免条件尚需业务确认。",
+        "unit_type": "requirement",
+        "statement_nature": "unknown",
+        "representation": [
+          "table"
+        ]
+      }
+    },
+    {
+      "id": "A1",
+      "kind": "attribute",
+      "name": "金额",
+      "definition": "金额（合成示例）",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L1"
+        }
+      ],
+      "links": [],
+      "details": {
+        "owner_id": "O1",
+        "datatype": "decimal",
+        "model_level": "property",
+        "term_name": "amount",
+        "labels": {
+          "zh": "金额"
+        },
+        "property_type": "data",
+        "domain_ids": [
+          "O1"
+        ],
+        "range_ids": [],
+        "source_unit_ids": [
+          "IU1"
+        ],
+        "unit": "元"
+      }
+    },
+    {
+      "id": "C1",
+      "kind": "constraint",
+      "name": "金额非负",
+      "definition": "金额非负（合成示例）",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L1"
+        }
+      ],
+      "links": [],
+      "details": {
+        "constraint_type": "value_range",
+        "target_ids": [
+          "A1"
+        ],
+        "specification": {
+          "min": 0,
+          "min_inclusive": true
+        },
+        "condition": "本轮演示支付",
+        "exceptions": "豁免条件尚未确认，不能作为实施基线",
+        "unknown_handling": "待补材料",
+        "positive_case": "0",
+        "negative_case": "-1",
+        "source_unit_ids": [
+          "IU1"
+        ]
+      }
+    },
+    {
+      "id": "AC1",
+      "kind": "action",
+      "name": "执行支付",
+      "definition": "执行支付（合成示例）",
+      "status": "candidate",
+      "evidence": [
+        {
+          "source_id": "S1",
+          "anchor": "L1"
+        }
+      ],
+      "links": [
+        "C1"
+      ],
+      "details": {
+        "actor": "经授权经办人",
+        "authorization": "权限及复核",
+        "preconditions": "符合C1",
+        "effects": "发起执行",
+        "failure": "记录失败",
+        "success": "获得业务成功确认",
+        "idempotency": "按指令ID",
+        "source_unit_ids": [
+          "IU1"
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "question": "哪些情形可豁免，豁免是否也影响金额约束？",
+      "blocking": true,
+      "status": "open",
+      "affects": [
+        "IU1",
+        "IU2",
+        "C1",
+        "AC1"
+      ],
+      "resolution": ""
+    }
+  ],
+  "tests": [
+    {
+      "id": "T1",
+      "question": "金额边界",
+      "expected": "拒绝负值",
+      "record_ids": [
+        "C1",
+        "AC1"
+      ],
+      "result": "not_run",
+      "evidence": ""
+    }
+  ],
+  "decisions": []
+}

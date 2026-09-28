@@ -1,0 +1,325 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "path": "synthetic-schema.sql",
+    "sha256": "0838326971939c5b9ff83a6f774bd017d1ad034c15ac5382f632dd59929f20b5",
+    "format": ".sql"
+  },
+  "blocks": [
+    {
+      "anchor": "DDL/1",
+      "kind": "ddl",
+      "text": "CREATE TABLE PARTY (party_id VARCHAR(32) PRIMARY KEY, id_namespace VARCHAR(40), name VARCHAR(100))",
+      "disposition": "parsed",
+      "original_comments": []
+    },
+    {
+      "anchor": "DDL/2",
+      "kind": "ddl",
+      "text": "CREATE TABLE PRODUCT (product_code VARCHAR(24) PRIMARY KEY, name VARCHAR(100))",
+      "disposition": "parsed",
+      "original_comments": []
+    },
+    {
+      "anchor": "DDL/3",
+      "kind": "ddl",
+      "text": "CREATE TABLE AGREEMENT (agreement_id VARCHAR(32) PRIMARY KEY, product_code VARCHAR(24), FOREIGN KEY (product_code) REFERENCES PRODUCT (product_code))",
+      "disposition": "parsed",
+      "original_comments": []
+    },
+    {
+      "anchor": "DDL/4",
+      "kind": "ddl",
+      "text": "CREATE TABLE ACCT (account_id VARCHAR(32) PRIMARY KEY, party_id VARCHAR(32), balance DECIMAL(20, 2), currency VARCHAR(3), as_of_date DATE, FOREIGN KEY (party_id) REFERENCES PARTY (party_id))",
+      "disposition": "parsed",
+      "original_comments": []
+    },
+    {
+      "anchor": "DDL/5",
+      "kind": "ddl",
+      "text": "CREATE TABLE PAYMENT_INSTRUCTION (instruction_id VARCHAR(32) PRIMARY KEY, debit_account VARCHAR(32), credit_reference VARCHAR(80), amount DECIMAL(20, 2), status VARCHAR(12), FOREIGN KEY (debit_account) REFERENCES ACCT (account_id))",
+      "disposition": "parsed",
+      "original_comments": []
+    },
+    {
+      "anchor": "DDL/6",
+      "kind": "ddl",
+      "text": "CREATE TABLE POSITION_OBSERVATION (account_id VARCHAR(32), instrument_id VARCHAR(32), observed_at TIMESTAMP, quantity DECIMAL(24, 8), PRIMARY KEY (account_id, instrument_id, observed_at))",
+      "disposition": "parsed",
+      "original_comments": []
+    },
+    {
+      "anchor": "DDL/7",
+      "kind": "ddl",
+      "text": "COMMENT ON COLUMN ACCT.balance IS '余额口径尚待业务确认'",
+      "disposition": "parsed",
+      "original_comments": []
+    },
+    {
+      "anchor": "DDL/SOURCE",
+      "kind": "original_ddl",
+      "text": "CREATE TABLE PARTY (party_id VARCHAR(32) PRIMARY KEY, id_namespace VARCHAR(40), name VARCHAR(100));\nCREATE TABLE PRODUCT (product_code VARCHAR(24) PRIMARY KEY, name VARCHAR(100));\nCREATE TABLE AGREEMENT (agreement_id VARCHAR(32) PRIMARY KEY, product_code VARCHAR(24), FOREIGN KEY(product_code) REFERENCES PRODUCT(product_code));\nCREATE TABLE ACCT (account_id VARCHAR(32) PRIMARY KEY, party_id VARCHAR(32), balance DECIMAL(20,2), currency VARCHAR(3), as_of_date DATE, FOREIGN KEY(party_id) REFERENCES PARTY(party_id));\nCREATE TABLE PAYMENT_INSTRUCTION (instruction_id VARCHAR(32) PRIMARY KEY, debit_account VARCHAR(32), credit_reference VARCHAR(80), amount DECIMAL(20,2), status VARCHAR(12), FOREIGN KEY(debit_account) REFERENCES ACCT(account_id));\nCREATE TABLE POSITION_OBSERVATION (account_id VARCHAR(32), instrument_id VARCHAR(32), observed_at TIMESTAMP, quantity DECIMAL(24,8), PRIMARY KEY(account_id,instrument_id,observed_at));\nCOMMENT ON COLUMN ACCT.balance IS '余额口径尚待业务确认';\n",
+      "disposition": "parsed"
+    }
+  ],
+  "issues": [
+    {
+      "code": "ddl_non_table",
+      "anchor": "DDL/7",
+      "message": "非CREATE TABLE语句已保留，需单独解释索引、注释、ALTER或其他逻辑"
+    }
+  ],
+  "schema": {
+    "tables": [
+      {
+        "name": "PARTY",
+        "anchor": "DDL/1",
+        "columns": [
+          {
+            "name": "party_id",
+            "type": "VARCHAR(32)",
+            "constraints": [
+              "PRIMARY KEY"
+            ],
+            "comments": []
+          },
+          {
+            "name": "id_namespace",
+            "type": "VARCHAR(40)",
+            "constraints": [],
+            "comments": []
+          },
+          {
+            "name": "name",
+            "type": "VARCHAR(100)",
+            "constraints": [],
+            "comments": []
+          }
+        ],
+        "primary_key": [
+          "party_id"
+        ],
+        "foreign_keys": [],
+        "constraints": []
+      },
+      {
+        "name": "PRODUCT",
+        "anchor": "DDL/2",
+        "columns": [
+          {
+            "name": "product_code",
+            "type": "VARCHAR(24)",
+            "constraints": [
+              "PRIMARY KEY"
+            ],
+            "comments": []
+          },
+          {
+            "name": "name",
+            "type": "VARCHAR(100)",
+            "constraints": [],
+            "comments": []
+          }
+        ],
+        "primary_key": [
+          "product_code"
+        ],
+        "foreign_keys": [],
+        "constraints": []
+      },
+      {
+        "name": "AGREEMENT",
+        "anchor": "DDL/3",
+        "columns": [
+          {
+            "name": "agreement_id",
+            "type": "VARCHAR(32)",
+            "constraints": [
+              "PRIMARY KEY"
+            ],
+            "comments": []
+          },
+          {
+            "name": "product_code",
+            "type": "VARCHAR(24)",
+            "constraints": [],
+            "comments": []
+          }
+        ],
+        "primary_key": [
+          "agreement_id"
+        ],
+        "foreign_keys": [
+          {
+            "columns": [
+              "product_code"
+            ],
+            "target_table": "PRODUCT",
+            "target_columns": [
+              "product_code"
+            ]
+          }
+        ],
+        "constraints": [
+          "FOREIGN KEY (product_code) REFERENCES PRODUCT (product_code)"
+        ]
+      },
+      {
+        "name": "ACCT",
+        "anchor": "DDL/4",
+        "columns": [
+          {
+            "name": "account_id",
+            "type": "VARCHAR(32)",
+            "constraints": [
+              "PRIMARY KEY"
+            ],
+            "comments": []
+          },
+          {
+            "name": "party_id",
+            "type": "VARCHAR(32)",
+            "constraints": [],
+            "comments": []
+          },
+          {
+            "name": "balance",
+            "type": "DECIMAL(20, 2)",
+            "constraints": [],
+            "comments": []
+          },
+          {
+            "name": "currency",
+            "type": "VARCHAR(3)",
+            "constraints": [],
+            "comments": []
+          },
+          {
+            "name": "as_of_date",
+            "type": "DATE",
+            "constraints": [],
+            "comments": []
+          }
+        ],
+        "primary_key": [
+          "account_id"
+        ],
+        "foreign_keys": [
+          {
+            "columns": [
+              "party_id"
+            ],
+            "target_table": "PARTY",
+            "target_columns": [
+              "party_id"
+            ]
+          }
+        ],
+        "constraints": [
+          "FOREIGN KEY (party_id) REFERENCES PARTY (party_id)"
+        ]
+      },
+      {
+        "name": "PAYMENT_INSTRUCTION",
+        "anchor": "DDL/5",
+        "columns": [
+          {
+            "name": "instruction_id",
+            "type": "VARCHAR(32)",
+            "constraints": [
+              "PRIMARY KEY"
+            ],
+            "comments": []
+          },
+          {
+            "name": "debit_account",
+            "type": "VARCHAR(32)",
+            "constraints": [],
+            "comments": []
+          },
+          {
+            "name": "credit_reference",
+            "type": "VARCHAR(80)",
+            "constraints": [],
+            "comments": []
+          },
+          {
+            "name": "amount",
+            "type": "DECIMAL(20, 2)",
+            "constraints": [],
+            "comments": []
+          },
+          {
+            "name": "status",
+            "type": "VARCHAR(12)",
+            "constraints": [],
+            "comments": []
+          }
+        ],
+        "primary_key": [
+          "instruction_id"
+        ],
+        "foreign_keys": [
+          {
+            "columns": [
+              "debit_account"
+            ],
+            "target_table": "ACCT",
+            "target_columns": [
+              "account_id"
+            ]
+          }
+        ],
+        "constraints": [
+          "FOREIGN KEY (debit_account) REFERENCES ACCT (account_id)"
+        ]
+      },
+      {
+        "name": "POSITION_OBSERVATION",
+        "anchor": "DDL/6",
+        "columns": [
+          {
+            "name": "account_id",
+            "type": "VARCHAR(32)",
+            "constraints": [],
+            "comments": []
+          },
+          {
+            "name": "instrument_id",
+            "type": "VARCHAR(32)",
+            "constraints": [],
+            "comments": []
+          },
+          {
+            "name": "observed_at",
+            "type": "TIMESTAMP",
+            "constraints": [],
+            "comments": []
+          },
+          {
+            "name": "quantity",
+            "type": "DECIMAL(24, 8)",
+            "constraints": [],
+            "comments": []
+          }
+        ],
+        "primary_key": [
+          "account_id",
+          "instrument_id",
+          "observed_at"
+        ],
+        "foreign_keys": [],
+        "constraints": [
+          "PRIMARY KEY (account_id, instrument_id, observed_at)"
+        ]
+      }
+    ],
+    "dialect": "postgres"
+  },
+  "coverage": {
+    "blocks": 8,
+    "needs_review": 0,
+    "issues": 1,
+    "semantic_extraction": "not_performed"
+  }
+}

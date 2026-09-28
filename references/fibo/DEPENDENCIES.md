@@ -1,0 +1,11 @@
+# 固定参考包完整性说明
+
+FIBO：master_2026Q2，commit f59157fe156e3d91b1c045222d0a7dc06b7d78a2。全仓467个文件逐个以Git blob SHA1对照官方tree核对后提取；原始源码完整保留。早期下载截断包未用于交付。
+
+外部依赖：Commons固定机器目录20250801，LCC固定机器目录20211101。实际取用的106个文件见dependency-sources.json；每个文件的原文许可在dependency-licenses.json及各RDF中保留，均有许可声明。Commons RDF包含MIT声明，LCC RDF声明MIT；不额外打包OMG规范PDF。
+
+当前固定FIBO版本有一项原生示例聚合导入缺口：FBC/AllFBC-NorthAmericanExamples.rdf引用BE/AllBE-NorthAmericanExamples/，固定commit中没有目标文件。没有创建伪造替代模块。coverage.json的complete因此为false，fibo-verify总检查返回非零；integrity_ok与release_dependency_complete应单独检查。
+
+Release模块的传递导入缺口为0；所有已下载机器文件解析成功。上游示例中有7项dateTime字面量格式警告（如单数字月份），原样保留于coverage.json，未静默修写源文件。此检查不等于对全套OWL公理进行了逻辑一致性推理。
+
+原始快照、外部依赖和索引的文件hash在manifest.json。后续升级必须另建版本，并重新核对imports、成熟度、许可及本行映射影响。
