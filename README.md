@@ -16,7 +16,7 @@
 
 3 分半钟了解这个 skill 解决什么问题、方法论与实机演示（一条命令解析 → 校验 → 全套交付物）：
 
-**[docs/video-intro-720p.mp4](docs/video-intro-720p.mp4)**（720p 嵌入版；B站高清版链接发布后回填）
+**[docs/video-intro-720p.mp4](docs/video-intro-720p.mp4)**（720p 嵌入版；B站高清版：https://www.bilibili.com/video/BV1mpaZ6xEvt/）
 
 > 视频 02:35 处口径说明：FIBO 标准文件因版权原因**不随仓库分发**，获取与本地索引重建方式见下文「FIBO 离线参考包（不入库）」一节。
 
